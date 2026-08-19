@@ -1,0 +1,822 @@
+{
+ "site": {
+  "key": "blog",
+  "title": "曾田力的博客",
+  "url": "https://blog.tianli.cyou"
+ },
+ "generated_at": "2026-08-19T02:46:53.082Z",
+ "posts": [
+  {
+   "slug": "why-they-must-be-right",
+   "lang": "zh",
+   "title": "为什么他们必须觉得自己是对的",
+   "date": "2026-08-16",
+   "excerpt": "你瘦了十斤，她说那是拍照角度。她不是在评价你，她是在记账——看懂那本账，你会少生很多气，也会知道哪些事你根本改不了。",
+   "tags": [
+    "思维模型",
+    "家庭",
+    "沟通",
+    "自我认知"
+   ],
+   "category": "local",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/why-they-must-be-right/hero.jpg",
+   "url": "https://blog.tianli.cyou/why-they-must-be-right",
+   "views": 2
+  },
+  {
+   "slug": "why-they-must-be-right",
+   "lang": "en",
+   "title": "Why They Have to Be Right",
+   "date": "2026-08-16",
+   "excerpt": "You lost ten pounds; she says it's the camera angle. She isn't judging you — she's doing bookkeeping. Read the ledger and you'll waste a lot less anger.",
+   "tags": [
+    "mental models",
+    "family",
+    "communication",
+    "self-knowledge"
+   ],
+   "category": "local",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/why-they-must-be-right/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/why-they-must-be-right",
+   "views": 2
+  },
+  {
+   "slug": "an-asset-dashboard-for-my-kid",
+   "lang": "zh",
+   "title": "我给儿子做了个「资产盘面」：83 条家规变成一个会涨跌的账本",
+   "date": "2026-08-11",
+   "excerpt": "贴纸和小红花的问题不是不管用，是攒不住。我把家里那张 83 条的积分条例做成了一个像股票盘面的账本：走势线、历史新高、兑换商店、每笔可查的流水。这篇讲它长什么样、防哪些坑，以及代币制半个多世纪的研究证据和从多邻国、ClassDojo 抄来的几件事。",
+   "tags": [
+    "教育",
+    "产品",
+    "育儿",
+    "积分系统",
+    "工程"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/an-asset-dashboard-for-my-kid/hero.jpg",
+   "url": "https://blog.tianli.cyou/an-asset-dashboard-for-my-kid",
+   "views": 4
+  },
+  {
+   "slug": "an-asset-dashboard-for-my-kid",
+   "lang": "en",
+   "title": "I Built My Son an 'Asset Dashboard': 83 House Rules Turned into a Ledger That Goes Up and Down",
+   "date": "2026-08-11",
+   "excerpt": "The problem with stickers and gold stars isn't that they don't work — it's that they don't accumulate. I turned our family's 83-rule points chart into a stock-market-style ledger: a trend line, an all-time-high badge, a rewards shop, and an auditable transaction log. This post shows what it looks like, which loopholes it closes, plus half a century of token-economy research and what I borrowed from Duolingo and ClassDojo.",
+   "tags": [
+    "education",
+    "product",
+    "parenting",
+    "points system",
+    "engineering"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/an-asset-dashboard-for-my-kid/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/an-asset-dashboard-for-my-kid",
+   "views": 4
+  },
+  {
+   "slug": "a-practice-site-for-my-kid",
+   "lang": "zh",
+   "title": "我给三年级的孩子做了个练习站：题目无限，但每一套都有头有尾",
+   "date": "2026-08-09",
+   "excerpt": "一份期末卷长出来的练习站。一套 12 题、题号条、错题本记题型不记题目、经验值和勋章墙、每道题都能「再造一道类似的」。这篇把它有什么功能、长什么样、怎么用，一次讲清楚，配图全是真页面截的。",
+   "tags": [
+    "教育",
+    "产品",
+    "工具",
+    "小学",
+    "工程"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/a-practice-site-for-my-kid/hero.jpg",
+   "url": "https://blog.tianli.cyou/a-practice-site-for-my-kid",
+   "views": 1
+  },
+  {
+   "slug": "his-own-market-cap",
+   "lang": "zh",
+   "title": "我给孩子做了个「资产盘面」，他每天自己去看涨了多少",
+   "date": "2026-08-09",
+   "excerpt": "贴纸和小红花的问题不是不管用，是攒不住 —— 攒到第十七张就没人记得第一张是为什么给的。所以我把它做成了账本：每一笔加分扣分都有事由、有时间、有当时的余额，总数摆在最上面，像看盘一样。",
+   "tags": [
+    "教育",
+    "工程实践",
+    "产品"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/his-own-market-cap/hero.jpg",
+   "url": "https://blog.tianli.cyou/his-own-market-cap",
+   "views": 0
+  },
+  {
+   "slug": "his-own-market-cap",
+   "lang": "en",
+   "title": "I Built My Kid His Own Market Dashboard, and He Checks It Every Day to See How Much He's Up",
+   "date": "2026-08-09",
+   "excerpt": "The problem with stickers and gold stars isn't that they don't work, it's that they don't add up — by the seventeenth one, nobody remembers what the first one was for. So I turned it into a ledger: every point earned or docked has a reason, a timestamp, and the balance at that moment, with the running total sitting up top, like watching a ticker.",
+   "tags": [
+    "Education",
+    "Engineering Practice",
+    "Product"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/his-own-market-cap/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/his-own-market-cap",
+   "views": 0
+  },
+  {
+   "slug": "questions-you-can-look-up",
+   "lang": "zh",
+   "title": "我能出五万种题，孩子问我这套一共有几道",
+   "date": "2026-08-09",
+   "excerpt": "一份三年级期末卷，我给孩子做了个练习站。五天里推翻了四次：无限流、错题重放、生成器当题库、全枚举炸库。每一次推翻的根因都一样——我把「技术上能做到」当成了「产品该长这样」。这篇把构建思路和使用方法一次写完。",
+   "tags": [
+    "教育",
+    "工程",
+    "产品",
+    "工具",
+    "AI 方法论"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/questions-you-can-look-up/hero.jpg",
+   "url": "https://blog.tianli.cyou/questions-you-can-look-up",
+   "views": 1
+  },
+  {
+   "slug": "questions-you-can-look-up",
+   "lang": "en",
+   "title": "I Can Generate Fifty Thousand Questions. My Kid Asked How Many There Are.",
+   "date": "2026-08-09",
+   "excerpt": "One third-grade final exam, and a practice site I built for my kid. Four teardowns in five days: infinite stream, replaying wrong answers, mistaking generators for a question bank, and a combinatorial explosion. Every teardown had the same root cause—I kept treating 'technically possible' as 'this is what the product should be.' Here's the whole build, and how to use it.",
+   "tags": [
+    "Education",
+    "Engineering",
+    "Product",
+    "Tooling",
+    "AI Methodology"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/questions-you-can-look-up/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/questions-you-can-look-up",
+   "views": 1
+  },
+  {
+   "slug": "six-numbers-i-invented",
+   "lang": "zh",
+   "title": "我编了六个数，所有的门都是绿的",
+   "date": "2026-08-09",
+   "excerpt": "把一张纸质规则表变成配置文件，最危险的动作不是算错，是在原文没给数的地方填一个看着合理的数。算错会被测试抓到；编的数不会——它和真的长得一模一样。",
+   "tags": [
+    "工程方法",
+    "AI 协作",
+    "质量门",
+    "教育"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/six-numbers-i-invented/hero.jpg",
+   "url": "https://blog.tianli.cyou/six-numbers-i-invented",
+   "views": 0
+  },
+  {
+   "slug": "six-numbers-i-invented",
+   "lang": "en",
+   "title": "I Invented Six Numbers, and Every Gate Was Green",
+   "date": "2026-08-09",
+   "excerpt": "Turning a paper rule sheet into a config file, the most dangerous move isn't getting the math wrong. It's filling in a plausible-looking number where the original gave none. Bad math gets caught by tests; invented numbers don't — they look exactly like the real ones.",
+   "tags": [
+    "Engineering Practice",
+    "AI Collaboration",
+    "Quality Gates",
+    "Education"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/six-numbers-i-invented/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/six-numbers-i-invented",
+   "views": 0
+  },
+  {
+   "slug": "my-checker-was-easier-to-please",
+   "lang": "zh",
+   "title": "我的检查器打了 102 个勾，你打开表是满屏错误",
+   "date": "2026-08-02",
+   "excerpt": "我交表时附了一句「机器逐项核过，102 项全对」。对方打开，满屏错误。",
+   "tags": [
+    "工程方法",
+    "复盘",
+    "验证",
+    "Claude Code"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/my-checker-was-easier-to-please/hero.jpg",
+   "url": "https://blog.tianli.cyou/my-checker-was-easier-to-please",
+   "views": 0
+  },
+  {
+   "slug": "my-checker-was-easier-to-please",
+   "lang": "en",
+   "title": "My Checker Gave 102 Green Ticks. You Opened the File to a Screen Full of Errors",
+   "date": "2026-08-02",
+   "excerpt": "I shipped the file with a note: machine-checked, 102 values verified. They opened it and every cell was broken. My checker was not lying — it was answering a different question than I thought.",
+   "tags": [
+    "engineering",
+    "postmortem",
+    "verification",
+    "Claude Code"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/my-checker-was-easier-to-please/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/my-checker-was-easier-to-please",
+   "views": 0
+  },
+  {
+   "slug": "i-silenced-my-own-alarm",
+   "lang": "zh",
+   "title": "我给自己装了 35 个报警器，最要紧的那个是我自己弄哑的",
+   "date": "2026-07-28",
+   "excerpt": "为了让一个报警器少吵一点，我加了一行去重。它从此对这台机器上的所有对话永远沉默。",
+   "tags": [
+    "工程方法",
+    "复盘",
+    "Claude Code",
+    "自动化"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/i-silenced-my-own-alarm/hero.jpg",
+   "url": "https://blog.tianli.cyou/i-silenced-my-own-alarm",
+   "views": 0
+  },
+  {
+   "slug": "i-silenced-my-own-alarm",
+   "lang": "en",
+   "title": "I Keep 35 Alarms Watching Me. I Silenced the Most Important One Myself.",
+   "date": "2026-07-28",
+   "excerpt": "To make one alarm less noisy, I added a line that skipped repeats. From that moment it went permanently silent — for every conversation on this machine — and it still looked like it was running fine.",
+   "tags": [
+    "engineering",
+    "postmortem",
+    "Claude Code",
+    "automation"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/i-silenced-my-own-alarm/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/i-silenced-my-own-alarm",
+   "views": 0
+  },
+  {
+   "slug": "output-is-not-correctness",
+   "lang": "zh",
+   "title": "每次跑都有输出，所以没人发现它漏了 86%",
+   "date": "2026-07-28",
+   "excerpt": "一个脚本跑了两个月，每次都有输出，每次看都正常。它漏掉了 86% 的短信。而这两个月里，我一直在拿它的输出做判断。",
+   "tags": [
+    "工程方法",
+    "数据",
+    "复盘",
+    "Claude Code"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/output-is-not-correctness/hero.jpg",
+   "url": "https://blog.tianli.cyou/output-is-not-correctness",
+   "views": 0
+  },
+  {
+   "slug": "output-is-not-correctness",
+   "lang": "en",
+   "title": "It Printed Output Every Single Run — That's Why Nobody Noticed It Was Missing 86%",
+   "date": "2026-07-28",
+   "excerpt": "A script ran for two months. Every run produced output. Every output looked fine. It was missing 86% of my text messages — and I had been using that output to make decisions.",
+   "tags": [
+    "engineering",
+    "data",
+    "postmortem",
+    "Claude Code"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/output-is-not-correctness/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/output-is-not-correctness",
+   "views": 0
+  },
+  {
+   "slug": "critic-objective-weighting",
+   "lang": "zh",
+   "title": "CRITIC 客观赋权：它在奖励什么，什么时候会悄悄失效",
+   "date": "2026-07-21",
+   "excerpt": "CRITIC 号称让数据自己定权重，但它到底在奖励什么？用一个 5 企业 × 3 指标的完整算例拆开：权重 = 区分度 × 冲突性；同一份数据熵权抬的指标 CRITIC 反手砍掉。再给两个几乎没人提的失效条件——指标只剩 2 个时严格退化为标准差赋权，样本不够时权重是摆设。",
+   "tags": [
+    "评估方法",
+    "数据分析",
+    "水效评估",
+    "多准则决策"
+   ],
+   "category": "water",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/critic-objective-weighting/hero.jpg",
+   "url": "https://blog.tianli.cyou/critic-objective-weighting",
+   "views": 0
+  },
+  {
+   "slug": "critic-objective-weighting",
+   "lang": "en",
+   "title": "CRITIC Objective Weighting: What It Rewards, and When It Quietly Breaks",
+   "date": "2026-07-21",
+   "excerpt": "CRITIC claims to let the data set the weights — but what does it actually reward? A full worked example, plus two failure modes almost nobody mentions: with only 2 indicators it degenerates exactly to std-ratio weighting, and with too few samples the weights are decorative.",
+   "tags": [
+    "evaluation-methods",
+    "data-analysis",
+    "water-efficiency",
+    "mcdm"
+   ],
+   "category": "water",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/critic-objective-weighting/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/critic-objective-weighting",
+   "views": 0
+  },
+  {
+   "slug": "open-source-contributions-review",
+   "lang": "zh",
+   "title": "三个开源贡献复盘：Raycast · WeChatTweak · Cardinal",
+   "date": "2026-07-18",
+   "excerpt": "2026 年给三个上游项目提的 PR——一个 Raycast 扩展、一次微信 4.x 二进制补丁、一个 Rust+Tauri 搜索 app 的持久化历史。三种生态、三种「合并的门槛」，代码本身反而都不是最难的部分。",
+   "tags": [
+    "开源",
+    "复盘",
+    "macOS",
+    "逆向",
+    "Raycast"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/open-source-contributions-review/hero.jpg",
+   "url": "https://blog.tianli.cyou/open-source-contributions-review",
+   "views": 0
+  },
+  {
+   "slug": "open-source-contributions-review",
+   "lang": "en",
+   "title": "Three Open-Source Contributions, In Retrospect: Raycast · WeChatTweak · Cardinal",
+   "date": "2026-07-18",
+   "excerpt": "Three PRs I sent upstream in 2026 — a Raycast extension, a WeChat 4.x binary patch, and persistent search history for a Rust+Tauri app. Three ecosystems, three different bars for 'getting merged,' and in every case the code itself was the easy part.",
+   "tags": [
+    "Open Source",
+    "Retrospective",
+    "macOS",
+    "Reverse Engineering",
+    "Raycast"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/open-source-contributions-review/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/open-source-contributions-review",
+   "views": 0
+  },
+  {
+   "slug": "open-sourcing-two-mac-apps",
+   "lang": "zh",
+   "title": "开源了两个 macOS 原生应用：Ask Claude 和水利工具箱",
+   "date": "2026-07-15",
+   "excerpt": "把自用舰队里的两个 macOS 原生应用整理开源：零 API key 直连 Claude 订阅的 Ask Claude，和 SwiftUI 壳 + Rust 计算核的水利工具箱。附开源前最花功夫的一课——数据脱敏远不止查找替换。",
+   "tags": [
+    "开源",
+    "macOS",
+    "SwiftUI",
+    "Rust",
+    "独立开发"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/open-sourcing-two-mac-apps/hero.jpg",
+   "url": "https://blog.tianli.cyou/open-sourcing-two-mac-apps",
+   "views": 0
+  },
+  {
+   "slug": "open-sourcing-two-mac-apps",
+   "lang": "en",
+   "title": "Open-Sourcing Two Native macOS Apps: Ask Claude and HydroMac",
+   "date": "2026-07-15",
+   "excerpt": "Two native macOS apps from my personal fleet, now open source: Ask Claude (chat on your Claude subscription, zero API key) and HydroMac (SwiftUI shell + Rust compute core for water engineering). Plus the hardest lesson before going public — data sanitization is far more than find-and-replace.",
+   "tags": [
+    "Open Source",
+    "macOS",
+    "SwiftUI",
+    "Rust",
+    "Indie Dev"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/open-sourcing-two-mac-apps/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/open-sourcing-two-mac-apps",
+   "views": 0
+  },
+  {
+   "slug": "tianli-cyou-site-guide",
+   "lang": "zh",
+   "title": "介绍一下这个网站",
+   "date": "2026-07-15",
+   "excerpt": "tianli.cyou 刚完成「纸上手册」改版和一次大扫除:砍掉死导航、删掉僵尸服务、把私人入口收敛成一个书签——一篇站点导览,顺带聊聊一个人怎么维护一个站群。",
+   "tags": [
+    "独立开发",
+    "网站改版",
+    "基础设施",
+    "设计"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/tianli-cyou-site-guide/hero.jpg",
+   "url": "https://blog.tianli.cyou/tianli-cyou-site-guide",
+   "views": 0
+  },
+  {
+   "slug": "tianli-cyou-site-guide",
+   "lang": "en",
+   "title": "A Guided Tour of This Site",
+   "date": "2026-07-15",
+   "excerpt": "tianli.cyou just went through a 'paper manual' redesign and a serious spring cleaning: dead navigation cut, zombie services removed, private entry collapsed into a single bookmark — a guided tour, plus how one person maintains a fleet of sites.",
+   "tags": [
+    "indie-dev",
+    "redesign",
+    "infrastructure",
+    "design"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/tianli-cyou-site-guide/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/tianli-cyou-site-guide",
+   "views": 0
+  },
+  {
+   "slug": "pressure-fingerprint-leak-localization",
+   "lang": "zh",
+   "title": "装几块压力表，能把漏点定位到哪条管？——压力指纹法完整推演",
+   "date": "2026-07-11",
+   "excerpt": "在一张6节点教学演示网上，从Hazen-Williams公式一步步推到装表决策：几块压力表的读数如何变成漏点的概率排名，装几块、装在哪，用一条边际收益曲线回答。",
+   "tags": [
+    "水力学",
+    "漏损定位",
+    "管网建模"
+   ],
+   "category": "water",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/pressure-fingerprint-leak-localization/hero.jpg",
+   "url": "https://blog.tianli.cyou/pressure-fingerprint-leak-localization",
+   "views": 0
+  },
+  {
+   "slug": "pressure-fingerprint-leak-localization",
+   "lang": "en",
+   "title": "How Many Pressure Gauges Does It Take to Pin a Leak to One Pipe? A Full Walk-Through of the Pressure-Fingerprint Method",
+   "date": "2026-07-11",
+   "excerpt": "On a 6-node teaching network, worked from the Hazen-Williams equation all the way to the sensor-count decision: how a handful of pressure readings become a ranked list of suspect pipes, and how a marginal-benefit curve answers how many gauges and where.",
+   "tags": [
+    "hydraulics",
+    "leak-localization",
+    "network-modeling"
+   ],
+   "category": "water",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/pressure-fingerprint-leak-localization/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/pressure-fingerprint-leak-localization",
+   "views": 0
+  },
+  {
+   "slug": "lingyang-pattern-ai-design",
+   "lang": "zh",
+   "title": "陵阳公样智能辅助设计研究",
+   "date": "2026-07-06",
+   "excerpt": "目的 针对唐代陵阳公样装饰纹样在现代传承中面临的创新性不足与公众参与度低等问题，探索一种基于人工智能的智能辅助设计方法，以实现传统纹样的活态传承与创造性转化。 方法 首先，基于皮尔斯符号学三元理论，从表征、客体和诠释三个维度对陵阳公样进行系统解析，并运用分裂语法对纹样结构进行层级化解构，构建了包含6...",
+   "tags": [
+    "艺术",
+    "AI"
+   ],
+   "category": "essays",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/lingyang-pattern-ai-design/hero.jpg",
+   "url": "https://blog.tianli.cyou/lingyang-pattern-ai-design",
+   "views": 0
+  },
+  {
+   "slug": "prompt-caching",
+   "lang": "zh",
+   "title": "Prompt Caching 架构：为什么 CLAUDE.md 越稳定越省钱",
+   "date": "2026-07-06",
+   "excerpt": "--- Prompt Caching 是 Claude API 层面的优化机制，核心原理简单直接：缓存按前缀匹配工作。 每次请求发给 Claude 的完整输入大致是这样的结构： 如果两次请求的\"前缀\"相同——即从第一个 token 开始到某个位置完全一致——第二次请求可以复用缓存，跳过对这段前缀的重...",
+   "tags": [
+    "AI",
+    "LLM",
+    "Claude"
+   ],
+   "category": "learn",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/prompt-caching/hero.jpg",
+   "url": "https://blog.tianli.cyou/prompt-caching",
+   "views": 0
+  },
+  {
+   "slug": "zhedong-rainfall-variability",
+   "lang": "zh",
+   "title": "浙东引水工程受水区降雨趋势与多尺度变率分析",
+   "date": "2026-07-06",
+   "excerpt": "ZENG Tian-li$^1$, ZUO Xiao-xia$^1$, YANG Yu$^1$, DH$^1$, WU Mu-hong$^2$, ZHONG Lü-bin$^2$, CHEN Shu-yang$^3$ (1. Zhejiang Design Institute of Water Co...",
+   "tags": [
+    "水利工程"
+   ],
+   "category": "learn",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/zhedong-rainfall-variability/hero.jpg",
+   "url": "https://blog.tianli.cyou/zhedong-rainfall-variability",
+   "views": 0
+  },
+  {
+   "slug": "claude-code-long-context",
+   "lang": "zh",
+   "title": "Claude Code 架构 · Layer 1:长期上下文层(CLAUDE.md / Memory)",
+   "date": "2026-06-17",
+   "excerpt": "长期上下文=每次对话自动加载的背景:CLAUDE.md 全局/项目规则 + Memory 跨会话记忆。它是 Claude Code 的地基,写好了 Agent 在任何会话都知道技术栈、规矩、偏好。",
+   "tags": [
+    "AI",
+    "LLM",
+    "Claude",
+    "Agent",
+    "上下文工程"
+   ],
+   "category": "learn",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/claude-code-long-context/hero.jpg",
+   "url": "https://blog.tianli.cyou/claude-code-long-context",
+   "views": 0
+  },
+  {
+   "slug": "water-capacity-methodology",
+   "lang": "zh",
+   "title": "水资源承载力评价方法论：AHP-CRITIC-TOPSIS 三级评估实践",
+   "date": "2026-04-14",
+   "excerpt": "从指标体系构建到组合赋权再到综合排名——一套可复现的水资源承载力评价技术路线，附 Python 实现要点。",
+   "tags": [
+    "水资源",
+    "水利工程",
+    "AHP-CRITIC组合赋权",
+    "TOPSIS综合评价"
+   ],
+   "category": "water",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/water-capacity-methodology/hero.jpg",
+   "url": "https://blog.tianli.cyou/water-capacity-methodology",
+   "views": 0
+  },
+  {
+   "slug": "water-capacity-methodology",
+   "lang": "en",
+   "title": "A Methodology for Water Resources Carrying Capacity Evaluation: AHP-CRITIC-TOPSIS in Practice",
+   "date": "2026-04-14",
+   "excerpt": "From indicator system design to combined weighting and final ranking — a reproducible technical pipeline for water resources carrying capacity evaluation, with Python implementation notes.",
+   "tags": [
+    "water-resources",
+    "water-conservancy-engineering",
+    "ahp-critic-combined-weighting",
+    "topsis-comprehensive-evaluation"
+   ],
+   "category": "water",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/water-capacity-methodology/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/water-capacity-methodology",
+   "views": 0
+  },
+  {
+   "slug": "indie-dev-cost-engineering",
+   "lang": "zh",
+   "title": "月均 $31 运维 28 个线上服务的成本工程",
+   "date": "2026-04-11",
+   "excerpt": "一台 $30/月的 VPS + $1/年的域名，承载 24 个 systemd 服务和 4 个 Docker 容器——独立开发者的成本控制方法论。",
+   "tags": [
+    "独立开发",
+    "VPS",
+    "产品",
+    "DevOps"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/indie-dev-cost-engineering/hero.jpg",
+   "url": "https://blog.tianli.cyou/indie-dev-cost-engineering",
+   "views": 0
+  },
+  {
+   "slug": "indie-dev-cost-engineering",
+   "lang": "en",
+   "title": "Cost Engineering: Running 28 Production Services for $31/Month",
+   "date": "2026-04-11",
+   "excerpt": "One $30/month VPS plus a $1/year domain, hosting 24 systemd services and 4 Docker containers — a cost-control playbook for indie developers.",
+   "tags": [
+    "indie-dev",
+    "vps",
+    "product",
+    "devops"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/indie-dev-cost-engineering/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/indie-dev-cost-engineering",
+   "views": 0
+  },
+  {
+   "slug": "streamlit-to-tauri",
+   "lang": "zh",
+   "title": "从 Streamlit 到 Tauri：水利计算工具的桌面化之路",
+   "date": "2026-04-10",
+   "excerpt": "将 12 个 Streamlit Web 应用迁移为 Tauri 桌面端的经验总结——计算引擎分离、React 前端重写、跨平台打包。",
+   "tags": [
+    "开发工具",
+    "Tauri",
+    "独立开发",
+    "Streamlit",
+    "React"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/streamlit-to-tauri/hero.jpg",
+   "url": "https://blog.tianli.cyou/streamlit-to-tauri",
+   "views": 0
+  },
+  {
+   "slug": "streamlit-to-tauri",
+   "lang": "en",
+   "title": "From Streamlit to Tauri: Bringing Water Engineering Tools to the Desktop",
+   "date": "2026-04-10",
+   "excerpt": "Lessons from migrating 12 Streamlit web apps to Tauri desktop apps — separating the compute engine, rewriting the React frontend, cross-platform packaging.",
+   "tags": [
+    "developer-tools",
+    "tauri",
+    "indie-dev",
+    "streamlit",
+    "react"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/streamlit-to-tauri/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/streamlit-to-tauri",
+   "views": 0
+  },
+  {
+   "slug": "raycast-integration-journey",
+   "lang": "zh",
+   "title": "44 个脚本的 Raycast 集成之路",
+   "date": "2026-04-09",
+   "excerpt": "把命令行工具一键封装为 GUI 操作——58 个 Raycast wrappers 的设计思路、踩坑记录和效率提升数据。",
+   "tags": [
+    "开发工具",
+    "CLI",
+    "Raycast",
+    "自动化"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/raycast-integration-journey/hero.jpg",
+   "url": "https://blog.tianli.cyou/raycast-integration-journey",
+   "views": 0
+  },
+  {
+   "slug": "raycast-integration-journey",
+   "lang": "en",
+   "title": "Wiring 44 Scripts into Raycast",
+   "date": "2026-04-09",
+   "excerpt": "Wrapping CLI tools into one-click GUI actions — design notes, gotchas, and efficiency data from building 58 Raycast wrappers.",
+   "tags": [
+    "developer-tools",
+    "cli",
+    "raycast",
+    "automation"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/raycast-integration-journey/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/raycast-integration-journey",
+   "views": 0
+  },
+  {
+   "slug": "one-person-infra",
+   "lang": "zh",
+   "title": "一个人的全栈基础设施",
+   "date": "2026-04-08",
+   "excerpt": "24 个 systemd 服务、4 个 Docker 容器、29 个 GitHub 仓库——独立开发者如何用最小成本构建可靠的生产环境。",
+   "tags": [
+    "独立开发",
+    "DevOps",
+    "VPS",
+    "自动化"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/one-person-infra/hero.jpg",
+   "url": "https://blog.tianli.cyou/one-person-infra",
+   "views": 0
+  },
+  {
+   "slug": "one-person-infra",
+   "lang": "en",
+   "title": "One-Person Full-Stack Infrastructure",
+   "date": "2026-04-08",
+   "excerpt": "24 systemd services, 4 Docker containers, 29 GitHub repos — how an indie developer builds a reliable production stack on a minimal budget.",
+   "tags": [
+    "indie-dev",
+    "devops",
+    "vps",
+    "automation"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/one-person-infra/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/one-person-infra",
+   "views": 0
+  },
+  {
+   "slug": "digital-twin-zhedong-water-network",
+   "lang": "zh",
+   "title": "浙东引水数字孪生系统：从物理水网到智慧调度的技术实践",
+   "date": "2025-10-11",
+   "excerpt": "深入剖析浙江省浙东引水工程数字孪生系统建设，探讨如何利用数字孪生技术实现跨流域大型水网的精准调度与智能管理，为全国数字孪生水网建设提供参考。",
+   "tags": [
+    "数字孪生",
+    "水资源调度",
+    "智慧水利",
+    "四预功能",
+    "水网建设"
+   ],
+   "category": "water",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/digital-twin-zhedong-water-network/hero.jpg",
+   "url": "https://blog.tianli.cyou/digital-twin-zhedong-water-network",
+   "views": 0
+  },
+  {
+   "slug": "digital-twin-zhedong-water-network",
+   "lang": "en",
+   "title": "The Zhedong Water Diversion Digital Twin: From Physical Water Network to Intelligent Scheduling",
+   "date": "2025-10-11",
+   "excerpt": "An in-depth look at Zhejiang's Zhedong Water Diversion digital twin — how digital twin technology enables precise scheduling and intelligent management of a trans-basin water network.",
+   "tags": [
+    "digital-twin",
+    "water-resources-scheduling",
+    "smart-water-conservancy",
+    "four-prediction-functions",
+    "water-network-construction"
+   ],
+   "category": "water",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/digital-twin-zhedong-water-network/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/digital-twin-zhedong-water-network",
+   "views": 0
+  },
+  {
+   "slug": "welcome",
+   "lang": "zh",
+   "title": "欢迎来到我的技术博客",
+   "date": "2025-01-10",
+   "excerpt": "这是我的第一篇博客文章。在这里，我将分享水利工程、数据分析、机器学习等领域的技术经验和项目心得。",
+   "tags": [
+    "博客",
+    "介绍",
+    "水利工程"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/welcome/hero.jpg",
+   "url": "https://blog.tianli.cyou/welcome",
+   "views": 0
+  },
+  {
+   "slug": "welcome",
+   "lang": "en",
+   "title": "Welcome to My Technical Blog",
+   "date": "2025-01-10",
+   "excerpt": "My first blog post. I'll share technical experience and project insights across water conservancy, data analysis, and machine learning.",
+   "tags": [
+    "blog",
+    "introduction",
+    "water-conservancy"
+   ],
+   "category": "engineering",
+   "series": null,
+   "image": "https://blog.tianli.cyou/images/blog/welcome/hero.jpg",
+   "url": "https://blog.tianli.cyou/en/welcome",
+   "views": 0
+  }
+ ]
+}

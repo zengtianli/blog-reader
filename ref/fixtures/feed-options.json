@@ -1,0 +1,1389 @@
+{
+ "site": {
+  "key": "options",
+  "title": "投资日复盘",
+  "url": "https://blog-options.tianli.cyou"
+ },
+ "generated_at": "2026-08-19T02:46:57.316Z",
+ "posts": [
+  {
+   "slug": "two-report-cards",
+   "lang": "zh",
+   "title": "跑赢大盘的那天，我破了自己的地板",
+   "date": "2026-08-18",
+   "excerpt": "昨天的复盘写「QQQ 再跌 0.17% 就贴地板」，今天它跌了 1.69%。结果是两张方向相反的成绩单：P&L 那本账，短 call 墙吐回 $76,226 盖过股票全部下跌，我只亏 0.79%，跑赢大盘 0.91 个百分点；margin 那本账，券商公式对对冲一分不认，股票每跌 $1 垫子烧 $0.75，安全垫从 40.34% 跌到 36.98%，破了我自划的 40% 地板。两张都是真的：一张答「亏了多少」，一张答「还能不能动」。今天的答案是——亏得少，但不能动了。",
+   "tags": [
+    "投资",
+    "期权",
+    "备兑",
+    "票据",
+    "margin",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/two-report-cards/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/two-report-cards",
+   "views": 1
+  },
+  {
+   "slug": "the-cushion-spent-in-one-day",
+   "lang": "zh",
+   "title": "上周五换来的额度，一天花掉了 97%",
+   "date": "2026-08-17",
+   "excerpt": "上周五我卖了 700 股换回 $140,318 的动作空间，还在文章里写「一张票据都没开」。今天给出了答案：买 500 股、行权再进 300 股、开 5 张新票据——一天花掉额度的 97%，margin 安全垫从 50.47% 掉回 40.34%，QQQ 再跌 0.17% 就贴地板。方向是对的（修满仓缺口），速度是问题：「垫子厚了就激进」被我执行成了「厚了就一次花光」。另外，0DTE 那条线第九次出手，累计首次转负。",
+   "tags": [
+    "投资",
+    "期权",
+    "备兑",
+    "票据",
+    "margin",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/the-cushion-spent-in-one-day/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/the-cushion-spent-in-one-day",
+   "views": 1
+  },
+  {
+   "slug": "the-cushion-i-bought-with-shares",
+   "lang": "zh",
+   "title": "垫子一天涨了 8 个点，是我卖了 700 股换来的",
+   "date": "2026-08-14",
+   "excerpt": "margin 安全垫从 42.27% 跳到 50.47%，单日 +8.20pp，是有记录以来最大的一次改善。但白天市场只给了 −0.58pp，那 +8.78pp 全部来自今晚交割——两笔备兑到期，700 股底仓按 715/720 被指派卖掉。这不是赚来的，是卖来的。账单是：让出 $5,799 的涨幅，换回 $109,961 的动作额度；而今天这笔额度我一张票据都没开。",
+   "tags": [
+    "投资",
+    "期权",
+    "备兑",
+    "票据",
+    "margin",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/the-cushion-i-bought-with-shares/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/the-cushion-i-bought-with-shares",
+   "views": 1
+  },
+  {
+   "slug": "the-start-date-i-picked",
+   "lang": "zh",
+   "title": "我挑了一个对自己有利的起算点",
+   "date": "2026-08-13",
+   "excerpt": "今天日内交易赚了 $6,896，是这条线开做以来最大的一天。我在台账里写「近五次 4 胜 1 负，累计 +$12,649」——数字一个没错，窗口挑过。从第一笔算起是七次 5 胜 2 负，累计只有 +$2,615；今天之前，这条线是亏 $4,281 的。同一天里，结构创下最差的一次跑输，我创下最好的一次日内，这两件事没有因果。",
+   "tags": [
+    "投资",
+    "期权",
+    "备兑",
+    "0DTE",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/the-start-date-i-picked/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/the-start-date-i-picked",
+   "views": 3
+  },
+  {
+   "slug": "the-more-it-rises-the-less-i-own",
+   "lang": "zh",
+   "title": "涨了 0.73%，我只拿到 0.46%：涨得越多，我参与得越少",
+   "date": "2026-08-12",
+   "excerpt": "今天指数涨 0.725%，我涨 0.458%，输了 0.27 个点——而我亲手做的那两笔交易是赚的。昨天正好反过来：亏钱，却赢了指数。两天合起来说的是同一件事：超额的符号由结构决定，不由我当天的判断决定。今天还出了一个第一次：短 call 在涨市里吐回了正股涨幅的 113.9%，比正股赚的还多。",
+   "tags": [
+    "投资",
+    "期权",
+    "备兑",
+    "对冲",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/the-more-it-rises-the-less-i-own/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/the-more-it-rises-the-less-i-own",
+   "views": 1
+  },
+  {
+   "slug": "same-move-zero-cost",
+   "lang": "zh",
+   "title": "同一个动作，昨天花掉 1.28 个百分点，今天零成本",
+   "date": "2026-08-11",
+   "excerpt": "今天指数跌 0.34%，我涨 0.14%，赢了 0.48 个点——而我亲手做的那三笔交易是亏的。更值得记的是另一件事：昨天我用一个动作花掉了 128 个基点的安全垫，今天做了几乎一模一样的动作，代价是零。差别只有一条腿。",
+   "tags": [
+    "投资",
+    "期权",
+    "对冲",
+    "风险管理",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/same-move-zero-cost/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/same-move-zero-cost",
+   "views": 3
+  },
+  {
+   "slug": "same-move-zero-cost",
+   "lang": "en",
+   "title": "The Same Move Cost Me 1.28 Points Yesterday and Nothing Today",
+   "date": "2026-08-11",
+   "excerpt": "The index fell 0.34% today and my account rose 0.14% — a 0.48-point win, while the three trades I made by hand lost money. But the thing worth writing down is different: yesterday one move cost me 128 basis points of cushion; today I made an almost identical move for nothing. The difference is one leg.",
+   "tags": [
+    "investing",
+    "options",
+    "hedging",
+    "risk management",
+    "review"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/same-move-zero-cost/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/same-move-zero-cost",
+   "views": 3
+  },
+  {
+   "slug": "saving-52-cost-18000",
+   "lang": "zh",
+   "title": "省下 52 美元，我花掉了 1.28 个百分点的生存额度",
+   "date": "2026-08-10",
+   "excerpt": "今天指数跌 0.30%，我涨 0.026%，赢了 0.33 个点——而且这次是主策略赢的，不像上周五全靠一笔方向单。但同一天我做了一个决定，用 128 个基点的安全垫换回了 0.39 个基点的便宜，比价 1 比 326。这篇讲这两件事为什么会同时发生。",
+   "tags": [
+    "投资",
+    "期权",
+    "对冲",
+    "风险管理",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/saving-52-cost-18000/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/saving-52-cost-18000",
+   "views": 0
+  },
+  {
+   "slug": "saving-52-cost-18000",
+   "lang": "en",
+   "title": "Saving $52 Cost Me 1.28 Points of Survival Room",
+   "date": "2026-08-10",
+   "excerpt": "The index fell 0.30% today and my account rose 0.026% — a 0.33-point win, and this time the core strategy earned it rather than one directional trade. But on the same day I made a decision that spent 128 basis points of cushion to capture 0.39. That's 1 to 326. Here's why both happened at once.",
+   "tags": [
+    "investing",
+    "options",
+    "hedging",
+    "risk management",
+    "review"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/saving-52-cost-18000/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/saving-52-cost-18000",
+   "views": 0
+  },
+  {
+   "slug": "i-sold-tomorrows-upside",
+   "lang": "zh",
+   "title": "涨的那天，我把明天的上行卖光了",
+   "date": "2026-08-07",
+   "excerpt": "今天指数涨 1.17%，我涨 1.32%，跑赢 0.15 个点。但拆开看：赢的那 0.15 全部来自一笔我自己写规则说不该做的单；主策略跑输 0.115 个点。这一天还发生了两件损益表上几乎看不见的事——200 股在开盘前被提前买走，以及我能吃到的上行从 15.9% 掉到 6.55%。",
+   "tags": [
+    "投资",
+    "期权",
+    "对冲",
+    "风险管理",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/i-sold-tomorrows-upside/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/i-sold-tomorrows-upside",
+   "views": 0
+  },
+  {
+   "slug": "i-sold-tomorrows-upside",
+   "lang": "en",
+   "title": "On the Day It Rallied, I Sold Off Tomorrow's Upside",
+   "date": "2026-08-07",
+   "excerpt": "The index rose 1.17% today, I rose 1.32%, beating it by 0.15 points. But break it apart: all 0.15 came from one trade my own rule said I shouldn't take, and the core strategy underperformed by 0.115. Two more things happened that the P&L barely shows — 200 shares were called away from me before the open, and the upside I can still capture fell from 15.9% to 6.55%.",
+   "tags": [
+    "investing",
+    "options",
+    "hedging",
+    "risk management",
+    "review"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/i-sold-tomorrows-upside/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/i-sold-tomorrows-upside",
+   "views": 0
+  },
+  {
+   "slug": "the-name-that-fell-most",
+   "lang": "zh",
+   "title": "跌得最多的那只，一分钱没让我亏",
+   "date": "2026-08-06",
+   "excerpt": "今天我三只票全在跌：INTC 跌 1.24%、GOOG 跌 0.97%、QQQ 只跌 0.37%。全天的亏损 100.3% 来自跌得最少的那只——超过 100，因为另外两只加起来净额是正的。排序完全反过来——因为决定谁挨打的从来不是跌幅，是覆盖率。",
+   "tags": [
+    "投资",
+    "期权",
+    "对冲",
+    "风险管理",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/the-name-that-fell-most/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/the-name-that-fell-most",
+   "views": 0
+  },
+  {
+   "slug": "the-name-that-fell-most",
+   "lang": "en",
+   "title": "The Name That Fell the Most Didn't Cost Me a Cent",
+   "date": "2026-08-06",
+   "excerpt": "All three of my names fell today: INTC −1.24%, GOOG −0.97%, QQQ only −0.37%. 100.3% of the day's loss came from the one that fell the least — more than 100, because the other two together netted positive. The ranking is completely inverted — because what decides who takes the hit was never the size of the drop, it's the coverage ratio.",
+   "tags": [
+    "investing",
+    "options",
+    "hedging",
+    "risk management",
+    "review"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/the-name-that-fell-most/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/the-name-that-fell-most",
+   "views": 0
+  },
+  {
+   "slug": "who-broke-the-floor",
+   "lang": "zh",
+   "title": "跑赢了 QQQ，却第一次踩破自己划的地板",
+   "date": "2026-08-05",
+   "excerpt": "今天大盘跌，我跌得比它少，四天来第一次跑赢。但收盘后我的 margin 缓冲从 49.43% 掉到 37.56%，第一次低于我给自己划的 40% 生存线。翻完账本，踩破它的是我自己的三笔动作，占 87%；市场只占 13%。",
+   "tags": [
+    "投资",
+    "期权",
+    "杠杆",
+    "风险管理",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/who-broke-the-floor/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/who-broke-the-floor",
+   "views": 0
+  },
+  {
+   "slug": "who-broke-the-floor",
+   "lang": "en",
+   "title": "I Beat QQQ Today, and Broke Through My Own Floor for the First Time",
+   "date": "2026-08-05",
+   "excerpt": "The market fell today and I fell less — my first outperformance in four days. But after the close my margin cushion dropped from 49.43% to 37.56%, below the 40% survival line I drew for myself. Working through the ledger: three of my own actions account for 87% of it. The market accounts for 13%.",
+   "tags": [
+    "investing",
+    "options",
+    "leverage",
+    "risk management",
+    "review"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/who-broke-the-floor/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/who-broke-the-floor",
+   "views": 0
+  },
+  {
+   "slug": "the-seven-i-left-uncapped",
+   "lang": "zh",
+   "title": "那七张我以为「裸卖」的 call，盖子是同一分钟买进的七百股",
+   "date": "2026-08-04",
+   "excerpt": "同一批二十七张单，拆开记是 −900，合上记是 +4,908。两条互相印证过的验算，原来共享同一个错误的切口。",
+   "tags": [
+    "期权",
+    "实盘复盘",
+    "风险管理",
+    "复盘勘误"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/the-seven-i-left-uncapped/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/the-seven-i-left-uncapped",
+   "views": 0
+  },
+  {
+   "slug": "the-seven-i-left-uncapped",
+   "lang": "en",
+   "title": "The Seven Calls I Thought I Sold 'Naked' — Their Caps Were the 700 Shares Bought in the Same Minute",
+   "date": "2026-08-04",
+   "excerpt": "The same batch of twenty-seven contracts: booked separately, −900; booked together, +4,908. Two cross-confirming checks turned out to share the same wrong cut.",
+   "tags": [
+    "options",
+    "live trading review",
+    "risk management",
+    "review erratum"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/the-seven-i-left-uncapped/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/the-seven-i-left-uncapped",
+   "views": 0
+  },
+  {
+   "slug": "two-cushions",
+   "lang": "zh",
+   "title": "我说「垫子厚了不少」，翻完账本发现说错了一半",
+   "date": "2026-08-03",
+   "excerpt": "收盘后我的第一反应是安全垫变厚了。厚的那个我说对了——每张票据离亏本金确实更远了；薄的那个我漏了——能拿去加仓的余地一天掉了 88%，从 42 张打到 1 张。同一个词，两笔账，今天它们走了相反方向。",
+   "tags": [
+    "投资",
+    "期权",
+    "杠杆",
+    "风险管理",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/two-cushions/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/two-cushions",
+   "views": 0
+  },
+  {
+   "slug": "two-cushions",
+   "lang": "en",
+   "title": "I Said \"The Cushion Got a Lot Thicker\" — Then I Opened the Books and Found I Was Half Wrong",
+   "date": "2026-08-03",
+   "excerpt": "My first reaction after the close was that the safety cushion had gotten thicker. The thick one I got right — every note really is further from losing principal. The thin one I missed — the room left to add positions fell 88% in a single day, from 42 contracts down to 1. One word, two sets of books, and today they moved in opposite directions.",
+   "tags": [
+    "investing",
+    "options",
+    "leverage",
+    "risk management",
+    "review"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/two-cushions/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/two-cushions",
+   "views": 0
+  },
+  {
+   "slug": "spending-the-cushion",
+   "lang": "zh",
+   "title": "我把昨晚白捡的安全垫，当天花掉了一多半",
+   "date": "2026-07-31",
+   "excerpt": "昨晚一场到期行权把我的保证金缓冲从 37% 顶到 68%，我一分力没出。今天开盘三小时，我花掉了其中 21 个点，买回 1,900 股、卖出 20 张深实值 call。同一天涨得最猛的那只票，我一分钱没多赚。",
+   "tags": [
+    "投资",
+    "期权",
+    "杠杆",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/spending-the-cushion/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/spending-the-cushion",
+   "views": 0
+  },
+  {
+   "slug": "spending-the-cushion",
+   "lang": "en",
+   "title": "I Spent More Than Half of Last Night's Free Safety Cushion the Same Day",
+   "date": "2026-07-31",
+   "excerpt": "An expiration last night pushed my margin buffer from 37% to 68%, and I didn't lift a finger for it. In the first three hours of today's session I spent 21 of those points — buying 1,900 shares and selling 20 deep in-the-money calls. The name that rose the most that same day earned me not one extra cent.",
+   "tags": [
+    "Investing",
+    "Options",
+    "Leverage",
+    "Review"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/spending-the-cushion/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/spending-the-cushion",
+   "views": 0
+  },
+  {
+   "slug": "leverage-i-did-not-add",
+   "lang": "zh",
+   "title": "那天我按的三个按钮全是亏的，账户涨了 5.67%",
+   "date": "2026-07-30",
+   "excerpt": "赚钱的不是我的判断，是前一天市场替我加上去的两倍杠杆。它把我抬进了上涨日——它同样会把我抬进下跌。",
+   "tags": [
+    "投资",
+    "期权",
+    "复盘",
+    "杠杆"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/leverage-i-did-not-add/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/leverage-i-did-not-add",
+   "views": 0
+  },
+  {
+   "slug": "leverage-i-did-not-add",
+   "lang": "en",
+   "title": "Every Button I Pressed That Day Lost Money. The Account Was Up 5.67%.",
+   "date": "2026-07-30",
+   "excerpt": "What made the money wasn't my judgment. It was the 2x leverage the market had added for me the day before. It carried me into an up day — it will just as happily carry me into a down one.",
+   "tags": [
+    "Investing",
+    "Options",
+    "Review",
+    "Leverage"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/leverage-i-did-not-add/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/leverage-i-did-not-add",
+   "views": 0
+  },
+  {
+   "slug": "strike-ladder-down-days",
+   "lang": "zh",
+   "title": "连跌三天,我把行权价从 630 一路压到 600——票据梯子的一周实盘",
+   "date": "2026-07-29",
+   "excerpt": "上一篇拆了票据的定价:21.6% 年化为什么期望只有 3%。这一篇是实盘:QQQ 连跌三天,我分四笔加仓 400 股,每一百股都当场锁成一张票据,行权价从 630 压到 610 再压到 600。垫子从 8.4% 加到 10.8%,票息从 7.72 降到 4.51——越怕就越往下换,这是本周每一级梯子的进价。同两天里,我还把 8 月那些跌成废纸的高行权价短 call 全部搬到当天/次日到期,单张日租金从 0.25 跳到 4.6。最后把账摊开:票息照收,净值照跌,两个口径都给你看。",
+   "tags": [
+    "投资",
+    "期权",
+    "备兑",
+    "实盘"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/strike-ladder-down-days/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/strike-ladder-down-days",
+   "views": 0
+  },
+  {
+   "slug": "strike-ladder-down-days",
+   "lang": "en",
+   "title": "Three Down Days, Three Lower Strikes: A Week of Laddering Covered Notes",
+   "date": "2026-07-29",
+   "excerpt": "Last post I priced the note structure: why a 21.6% headline yield carries only ~3% expected return. This one is the live week: QQQ fell three days straight, and I added 400 shares in four tranches, each immediately locked into a note by selling an in-the-money call — strikes 630, then 610, then 600. The cushion widened from 8.4% to 10.8% while the real coupon shrank from 7.72 to 4.51 per share: the more fear, the more ceiling you trade for floor. Over the same two days I tore down the worthless far-dated short calls and rebuilt them at next-day expiry near the money, lifting rent per contract from ~0.25 to ~4.6 a day. Finally I open both ledgers: coupons collected, net value down — both true at once.",
+   "tags": [
+    "investing",
+    "options",
+    "covered-call",
+    "live-trading"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/strike-ladder-down-days/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/strike-ladder-down-days",
+   "views": 0
+  },
+  {
+   "slug": "eighty-three-seventeen",
+   "lang": "zh",
+   "title": "跌破自己画的那条线：83% 是市场推的，17% 是我自己走过去的",
+   "date": "2026-07-28",
+   "excerpt": "我给自己定过一条硬线：存活缓冲不低于净值的 40%。今天收盘 38.75%，第一次在线下面。但把这条线的公式拆开算，四格精确加总——市场推了 83.2%，我自己只走了 16.8%。同一天我还做了四笔换月，把三周后的天花板搬到了明天——并且把底下那六张 FCN 型票据的梯子整个摊开算了一遍。",
+   "tags": [
+    "投资",
+    "期权",
+    "复盘",
+    "风险管理"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/eighty-three-seventeen/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/eighty-three-seventeen",
+   "views": 0
+  },
+  {
+   "slug": "eighty-three-seventeen",
+   "lang": "en",
+   "title": "Below the Line I Drew Myself: 83% Was the Market, 17% Was Me",
+   "date": "2026-07-28",
+   "excerpt": "I set myself a hard line: survival buffer never below 40% of net liquidation value. Today it closed at 38.75% — the first time under. But when I opened up the formula behind that line, four terms that add up exactly, the answer was: the market pushed 83.2%, I walked 16.8%. On the same day I rolled four positions, moving a ceiling three weeks out to tomorrow — and laid out the ladder of six FCN-style notes underneath all of it.",
+   "tags": [
+    "investing",
+    "options",
+    "review",
+    "risk management"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/eighty-three-seventeen/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/eighty-three-seventeen",
+   "views": 0
+  },
+  {
+   "slug": "nineteen-seconds",
+   "lang": "zh",
+   "title": "跌出来的隐波，是卖方的收成",
+   "date": "2026-07-27",
+   "excerpt": "十九秒里我做了两件事：买进 100 股 QQQ，然后把它们的上行卖到 630。看着像放弃收益，其实是在收今年这波下跌唯一给出来的东西——隐含波动率。同一条链上，630 那一档的隐波比 725 高出 11.7 个点，我让出 25.6 个百分点的票息把这个价差买了下来，换回 7.6% 的垫子。净暴露只有 15.9 股。",
+   "tags": [
+    "投资",
+    "期权",
+    "复盘",
+    "波动率"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/nineteen-seconds/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/nineteen-seconds",
+   "views": 0
+  },
+  {
+   "slug": "nineteen-seconds",
+   "lang": "en",
+   "title": "Sold-Off Volatility Is the Seller's Harvest",
+   "date": "2026-07-27",
+   "excerpt": "In nineteen seconds I did two things: bought 100 shares of QQQ, then sold away everything above 630. It looks like giving up return. It's actually harvesting the one thing this selloff has been handing out — implied volatility. On the same chain, the 630 strike prices 11.7 vol points above the 725. I gave up 25.6 points of coupon for that edge and got a 7.6% cushion back. Net exposure: 15.9 shares.",
+   "tags": [
+    "investing",
+    "options",
+    "review",
+    "volatility"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/nineteen-seconds/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/nineteen-seconds",
+   "views": 0
+  },
+  {
+   "slug": "bull-bear-judge",
+   "lang": "zh",
+   "title": "先修形状，再赌方向",
+   "date": "2026-07-26",
+   "excerpt": "华尔街九家大行八家看涨。这种时候我最不放心的不是市场，是我自己——一个人读研报，读到的必然是支持自己现有仓位的那一半。所以我把看多和看空关进两个隔音间各自找证据，承重的事实我自己核，冲突清单我自己列，处方里的价格我自己回链上重算。跑完最扎心的不是方向，是我这本账的形状：右尾是我自己卖光的，左尾在自动加仓。",
+   "tags": [
+    "投资",
+    "市场研判",
+    "方法论",
+    "期权"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/bull-bear-judge/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/bull-bear-judge",
+   "views": 0
+  },
+  {
+   "slug": "bull-bear-judge",
+   "lang": "en",
+   "title": "Fix the Shape First, Then Bet the Direction",
+   "date": "2026-07-26",
+   "excerpt": "Eight of nine Wall Street banks have year-end targets above spot. In a tape like that, the thing I trust least isn't the market — it's me. Read research alone and you only ever find the half that supports the position you already hold. So I put the bull case and the bear case in separate soundproof rooms, verified the load-bearing facts myself, wrote the conflict list myself, and repriced every prescription against the live chain myself. The sharpest finding wasn't direction. It was the shape of my own book.",
+   "tags": [
+    "investing",
+    "market research",
+    "method",
+    "options"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/bull-bear-judge/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/bull-bear-judge",
+   "views": 0
+  },
+  {
+   "slug": "the-residual-is-vega",
+   "lang": "zh",
+   "title": "财报大 beat，股价跌 7.9%：我往下压了十块行权价，顺便给公式的残差起了个名字",
+   "date": "2026-07-24",
+   "excerpt": "英特尔营收 +25%、15 年最快增速、EPS 超预期，盘后冲到 110——第二天收 92.32，跌 7.89%。确认好消息，不给第二次奖赏。我只做了一笔：把 0DTE 的 110 行权价往下压到 100，多收 5.25 一股。同一天里，我前三天拟合出的那条公式第一次失效了，缺口 0.62 个百分点，它的名字叫 vega。",
+   "tags": [
+    "投资复盘",
+    "期权",
+    "备兑",
+    "财报",
+    "波动率"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/the-residual-is-vega/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/the-residual-is-vega",
+   "views": 0
+  },
+  {
+   "slug": "the-residual-is-vega",
+   "lang": "en",
+   "title": "A Big Earnings Beat, a 7.9% Drop: I Pushed My Strike Down Ten Dollars, and Gave My Formula's Residual a Name",
+   "date": "2026-07-24",
+   "excerpt": "Intel posted revenue up 25%, its fastest growth in 15 years, an EPS beat, and spiked toward 110 after hours. The next day it closed at 92.32, down 7.89%. Confirming good news earns no second reward. I placed exactly one order: rolled a 0DTE 110 strike down to 100 for an extra 5.25 a share. On the same day, the formula I'd fitted over three sessions failed for the first time. The gap was 0.62 percentage points, and its name is vega.",
+   "tags": [
+    "portfolio review",
+    "options",
+    "covered calls",
+    "earnings",
+    "volatility"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/the-residual-is-vega/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/the-residual-is-vega",
+   "views": 0
+  },
+  {
+   "slug": "panic-discount-two-notes",
+   "lang": "zh",
+   "title": "本轮最大跌幅日，我进货了两张票据——外加 Intel 财报落地",
+   "date": "2026-07-23",
+   "excerpt": "QQQ 跌 1.90%（本轮最大单日跌），我跌 2.26%。Alphabet 的 2000 亿 capex 把 AI 基建的账单拍在了整个市场脸上。我做了三件事：在恐慌里买了两张深实值票据、一笔没成交的 roll，然后看着 Intel 盘后大 beat 停在我的封顶线之下。",
+   "tags": [
+    "投资复盘",
+    "期权",
+    "备兑",
+    "票据",
+    "财报"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/panic-discount-two-notes/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/panic-discount-two-notes",
+   "views": 0
+  },
+  {
+   "slug": "panic-discount-two-notes",
+   "lang": "en",
+   "title": "Biggest Red Day of the Run — I Went Shopping for Two Notes (Plus: Intel Earnings Land)",
+   "date": "2026-07-23",
+   "excerpt": "QQQ fell 1.90% — the worst day of this stretch — and I fell 2.26%. Alphabet's $200B capex bill hit the whole market. I did three things: bought two deep-ITM notes in the panic, left one roll unfilled, and watched Intel's blowout quarter land just below my cap.",
+   "tags": [
+    "investing",
+    "options",
+    "covered-call",
+    "notes",
+    "earnings"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/panic-discount-two-notes/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/panic-discount-two-notes",
+   "views": 0
+  },
+  {
+   "slug": "red-day-runs-the-formula-backward",
+   "lang": "zh",
+   "title": "温和回落日，公式反着跑了一遍——顺便：明天 Intel 财报，我 1200 股怎么摆",
+   "date": "2026-07-22",
+   "excerpt": "指数跌 0.51%，我跌 0.69%。昨天那条'涨得越多、垫子亏越多'的公式，今天在一个小跌日把每个符号都翻了过来：卖 call 从拖累变回垫子，昨天融掉的杠杆自己长回来一截。外加一张 Intel 财报敞口图。",
+   "tags": [
+    "投资复盘",
+    "期权",
+    "杠杆",
+    "备兑",
+    "负gamma"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/red-day-runs-the-formula-backward/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/red-day-runs-the-formula-backward",
+   "views": 0
+  },
+  {
+   "slug": "red-day-runs-the-formula-backward",
+   "lang": "en",
+   "title": "A Quiet Red Day Runs the Formula Backward — Plus: Intel Reports Tomorrow, Here's How My 1,200 Shares Are Positioned",
+   "date": "2026-07-22",
+   "excerpt": "The index fell 0.51%, I fell 0.69%. Yesterday's straight line — 'the more it rallies, the more the cushion bleeds' — got run in reverse on a small down day: sold calls flipped from drag back to cushion, and the leverage I melted off yesterday grew back. Plus one chart of my Intel earnings exposure.",
+   "tags": [
+    "portfolio-review",
+    "options",
+    "leverage",
+    "covered-calls",
+    "negative-gamma"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/red-day-runs-the-formula-backward/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/red-day-runs-the-formula-backward",
+   "views": 0
+  },
+  {
+   "slug": "rally-day-audits-the-formula",
+   "lang": "zh",
+   "title": "指数大涨 1.85%,我涨 2.82%:昨天写下的公式,今天就来收作业",
+   "date": "2026-07-21",
+   "excerpt": "昨天刚写完「这条腿从结构上赚不了大涨的钱」,今天指数就涨了 1.85%。49 张短 call 按公式认亏 2.41%(模型预测 2.28%,差 0.13 个百分点),整本账却涨 2.82%——系列里最大的单日涨幅。外加一笔迟到五天的入金,三面风险旗一天全部修复,但没有一面是我修的。",
+   "tags": [
+    "investing",
+    "options",
+    "review",
+    "leverage"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/rally-day-audits-the-formula/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/rally-day-audits-the-formula",
+   "views": 0
+  },
+  {
+   "slug": "rally-day-audits-the-formula",
+   "lang": "en",
+   "title": "The Index Jumped 1.85%, I Rose 2.82%: The Formula I Published Yesterday Got Audited Today",
+   "date": "2026-07-21",
+   "excerpt": "One day after I wrote \"this leg is structurally incapable of making money in a big rally,\" the index rallied 1.85%. The 49 short calls lost 2.41% right on script (the model said 2.28%), yet the whole book rose 2.82% — the series' biggest daily gain. Add a deposit five days late, and all three risk flags healed in a day. None of them healed by me.",
+   "tags": [
+    "investing",
+    "options",
+    "review",
+    "leverage"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/rally-day-audits-the-formula/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/rally-day-audits-the-formula",
+   "views": 0
+  },
+  {
+   "slug": "cushion-drives-negative-coupon",
+   "lang": "zh",
+   "title": "指数只涨 0.11%，我涨 0.41%：第一次靠垫子赚钱，和一张天花板为负的备兑",
+   "date": "2026-07-20",
+   "excerpt": "周一是七个交易日里第一个平静日，也是第一次卖 call 的腿当主引擎——49 张短 call 赚得比正股还多。我把这条腿的损益写成一条直线，算出「白干线」在 0.29%。同一天，我在刚接下的股票头上卖了一张天花板为负的备兑：封顶即亏 3.06%。那不是票息，是减亏。",
+   "tags": [
+    "投资",
+    "期权",
+    "复盘",
+    "杠杆"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/cushion-drives-negative-coupon/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/cushion-drives-negative-coupon",
+   "views": 0
+  },
+  {
+   "slug": "cushion-drives-negative-coupon",
+   "lang": "en",
+   "title": "The Index Rose Just 0.11%, I Rose 0.41%: The First Day the Cushion Did the Earning, and a Covered Call Whose Ceiling Is Negative",
+   "date": "2026-07-20",
+   "excerpt": "Monday was the first quiet session in seven, and the first time the short-call leg was the main engine — 49 short calls out-earned the stock itself. I write the leg out as a straight line and solve for the \"worked-for-nothing line\" at 0.29%. The same day, I sold a covered call whose ceiling is negative: fully capped means a 3.06% loss. That premium isn't a coupon — it's loss reduction.",
+   "tags": [
+    "investing",
+    "options",
+    "review",
+    "leverage"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/cushion-drives-negative-coupon/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/cushion-drives-negative-coupon",
+   "views": 0
+  },
+  {
+   "slug": "cushioned-notes-vs-qqq",
+   "lang": "zh",
+   "title": "21.6% 年化的票据,为什么长期期望还不如 QQQ?",
+   "date": "2026-07-18",
+   "excerpt": "我做了一种带垫子的备兑票据:买入 QQQ,卖出实值 call,只要 35 天内不跌超 4.8% 就拿满票息,年化 21.6%。可定价模型算出来的期望收益只有 3% 出头,和国债差不多——票面 21.6% 和期望 3%,差了整整 7 倍。这篇把差距一层层拆开:从「免费保护=套利」的恒等式,到 27 年历史窗口的三堆分解,到 25 年整轮对打 QQQ 的现金/融资两列口径,最后到这个 payoff 其实是一个十万亿美元工业的自营版。",
+   "tags": [
+    "投资",
+    "期权",
+    "备兑",
+    "杠杆"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/cushioned-notes-vs-qqq/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/cushioned-notes-vs-qqq",
+   "views": 0
+  },
+  {
+   "slug": "cushioned-notes-vs-qqq",
+   "lang": "en",
+   "title": "My Note Yields 21.6% Annualized. Why Is Its Long-Run Expectancy Still Below QQQ?",
+   "date": "2026-07-18",
+   "excerpt": "I've been building cushioned buy-write notes: buy QQQ, sell an in-the-money call, and as long as the index doesn't drop more than ~4.8% in 35 days I collect the full coupon — 21.6% annualized. Yet the pricing model puts the structure's expected return at barely 3%, about the same as T-bills — a 7x gap between the face rate and the expectancy. This post takes that gap apart layer by layer: the no-free-insurance identity, a three-bucket decomposition of 27 years of history, a 25-year cash-vs-margin showdown against QQQ, and the realization that this payoff is the self-run version of a ten-trillion-dollar industry.",
+   "tags": [
+    "investing",
+    "options",
+    "covered-call",
+    "leverage"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/cushioned-notes-vs-qqq/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/cushioned-notes-vs-qqq",
+   "views": 0
+  },
+  {
+   "slug": "notes-are-treasury-plus-insurance",
+   "lang": "zh",
+   "title": "票息拆开只有两种钱:国债利息,和保险费",
+   "date": "2026-07-18",
+   "excerpt": "上一篇讲了带垫子的备兑票据为什么长期期望低于裸持股。这一篇往下再挖一层:用 put-call parity 把 21% 的票息拆开,里面只有两种钱——国债利息和卖保险的保险费;所以任何档位、任何标的,票据的公允期望都被钉在国债附近,换档换券都逃不出这条线。然后把尾部风险算清楚:多大概率破保本、亏进去平均亏多少、对数正态模型在哪一段骗你(崩盘概率低估约 5 倍),以及为什么真正的尾巴往往不在票据结构里,而在账户的杠杆上。",
+   "tags": [
+    "投资",
+    "期权",
+    "备兑",
+    "风险"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/notes-are-treasury-plus-insurance/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/notes-are-treasury-plus-insurance",
+   "views": 0
+  },
+  {
+   "slug": "notes-are-treasury-plus-insurance",
+   "lang": "en",
+   "title": "Unpack the Coupon and There Are Only Two Kinds of Money: Treasury Interest, and Insurance Premium",
+   "date": "2026-07-18",
+   "excerpt": "The previous post explained why a cushioned buy-write note's long-run expectancy sits below naked stock. This one digs a layer deeper: using put-call parity to unpack the 21% coupon into its only two components — treasury interest and insurance premium — which is why the note's fair expectancy is pinned near T-bills at every strike and on every underlying. Then the tail gets computed properly: the probability of breaching break-even, the average loss when you do, where the lognormal model lies to you (crash odds understated ~5x), and why the real tail usually lives not in the note but in the account's leverage.",
+   "tags": [
+    "investing",
+    "options",
+    "covered-call",
+    "risk"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/notes-are-treasury-plus-insurance/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/notes-are-treasury-plus-insurance",
+   "views": 0
+  },
+  {
+   "slug": "expiry-day-nothing-called-away",
+   "lang": "zh",
+   "title": "693 再接一刀,646 兜底:到期日一股没被叫走,负债爬到 88%",
+   "date": "2026-07-17",
+   "excerpt": "月度到期日的裁决出来了:22 张短 call 全部收在行权价下方——权利金 100% 落袋,但一股股票都没被叫走,负债一分没还。我把同一张结构单往下焊了一级新台阶(693 买入 / 660 封顶 / 646.58 保本),负债三天从 19% 爬到 88%。代价当天到账:垫子只吸收了多头亏损的 44%(前一天是 68%),净值 −2.44% vs 指数 −1.51%,一天把一周攒的 +1.36pp 超额打回 +0.41pp。还有一条纪律裂缝:昨晚公开写下『按约接货』,今天下午我挂了一张想跑的 roll 单——没成交是运气救了我,不是纪律救了我。",
+   "tags": [
+    "投资",
+    "期权",
+    "复盘",
+    "杠杆"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/expiry-day-nothing-called-away/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/expiry-day-nothing-called-away",
+   "views": 0
+  },
+  {
+   "slug": "expiry-day-nothing-called-away",
+   "lang": "en",
+   "title": "Another Knife at 693, Floored at 646: On Expiry Day Not a Single Share Was Called Away, and Debt Climbed to 88%",
+   "date": "2026-07-17",
+   "excerpt": "The monthly expiry handed down its verdict: all 22 short calls closed below their strikes — every dollar of premium banked, but not one share called away, and not one dollar of debt repaid. So I welded the same structured trade one rung lower (buy 693, cap 660, floor 646.58), and debt went 19% → 69% → 88% in three days. The bill arrived same-day: the cushion absorbed only 44% of the long-side loss (68% the day before), net −2.44% vs the index −1.51%, and one session knocked a week's +1.36pp of excess back down to +0.41pp. Plus a crack in the discipline: last night I published 'take delivery as contracted,' and this afternoon I put in an order trying to run. It didn't fill. Luck saved me, not discipline.",
+   "tags": [
+    "investing",
+    "options",
+    "review",
+    "leverage"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/expiry-day-nothing-called-away/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/expiry-day-nothing-called-away",
+   "views": 0
+  },
+  {
+   "slug": "buy-the-dip-with-a-floor",
+   "lang": "zh",
+   "title": "708 接刀,666 兜底:把抄底做成一张结构单",
+   "date": "2026-07-16",
+   "excerpt": "五天里最深的一跌。我上午在 708 接了刀,但同一分钟给这笔仓位焊了条 666 的保本线——用深实值备兑把抄底做成结构单:76% 的概率拿年化 21%,代价是涨幅封顶、且期权市场按公平价格收走了剩下的期望。买完它接着跌,这笔仓位当天净变动 0.00%。晚上流媒体巨头财报暴跌,把我一个月前卖的 put 打穿——裁决:按约接货。卖 put 的完整句子从来是『我愿意在这个价买下它』。",
+   "tags": [
+    "投资",
+    "期权",
+    "复盘",
+    "杠杆"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/buy-the-dip-with-a-floor/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/buy-the-dip-with-a-floor",
+   "views": 0
+  },
+  {
+   "slug": "buy-the-dip-with-a-floor",
+   "lang": "en",
+   "title": "Catching the Knife at 708 with a Floor Welded at 666: Buying the Dip as a Structured Trade",
+   "date": "2026-07-16",
+   "excerpt": "The deepest down day since the scoreboard opened. I caught the knife at 708 in the morning — but in the same minute welded a breakeven floor at 666 under it, turning the dip-buy into a structured trade: a 76% chance of ~21% annualized, priced fairly, with the upside capped and the tail still mine below −6%. The index kept falling after I bought; the position's net change on the day was 0.00%. Then the streaming giant's earnings blew through the put I sold a month ago. Verdict: take delivery. The full sentence behind selling a put has always been 'I am willing to buy this company at that price.'",
+   "tags": [
+    "investing",
+    "options",
+    "review",
+    "leverage"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/buy-the-dip-with-a-floor/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/buy-the-dip-with-a-floor",
+   "views": 0
+  },
+  {
+   "slug": "roll-into-assignment",
+   "lang": "zh",
+   "title": "一分钱的换仓单,还掉一半负债:主动把自己交割掉",
+   "date": "2026-07-15",
+   "excerpt": "到期日还剩两天,我把 21 张周五到期的备兑 call 换成当天到期,每股只多收一分钱。图什么?图今晚清算所替我把这批股票按行权价整齐卖掉——不挂卖单、不过价差、不付佣金。一张几乎不赚钱的单,砍掉了将近一半的负债。这篇讲怎么把「被指派」从要躲的事故用成主动的减仓工具,顺便交代记分板开张以来的第一个跑输日。",
+   "tags": [
+    "投资",
+    "期权",
+    "复盘",
+    "杠杆"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/roll-into-assignment/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/roll-into-assignment",
+   "views": 0
+  },
+  {
+   "slug": "roll-into-assignment",
+   "lang": "en",
+   "title": "A One-Cent Roll That Paid Off Half My Debt: Assigning Myself on Purpose",
+   "date": "2026-07-15",
+   "excerpt": "Two days before expiry, I rolled 21 covered calls into same-day expiration for a net credit of one cent per share. Why? So the clearinghouse would sell the shares for me tonight, neatly, at the strike — no sell order, no spread, no commission. A nearly profitless trade that cut my margin debt almost in half. This is how to turn assignment from an accident you dodge into a deleveraging tool you aim.",
+   "tags": [
+    "investing",
+    "options",
+    "review",
+    "leverage"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/roll-into-assignment/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/roll-into-assignment",
+   "views": 0
+  },
+  {
+   "slug": "leverage-that-breathes",
+   "lang": "zh",
+   "title": "绞肉机换了方向,我的杠杆在自己呼吸",
+   "date": "2026-07-14",
+   "excerpt": "CPI 一凉,前一天还在失血的芯片股集体反弹:同一只票,周一 −6%,周二 +4.5%。我两天各做了一件小事,跌日涨日都跑赢了指数——不是我预判了反转,是卖 call 组合的负 gamma 在替我呼吸:跌时敞口自己变大,涨时自己缩小。这篇讲这台呼吸机的原理,和它收多少费。",
+   "tags": [
+    "投资",
+    "期权",
+    "复盘",
+    "杠杆"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/leverage-that-breathes/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/leverage-that-breathes",
+   "views": 0
+  },
+  {
+   "slug": "leverage-that-breathes",
+   "lang": "en",
+   "title": "The Meat Grinder Reversed — and My Leverage Breathed on Its Own",
+   "date": "2026-07-14",
+   "excerpt": "One cool CPI print and yesterday's bleeding chip stocks rallied hard: the same stock went −6% Monday, +4.5% Tuesday. I did one small thing each day and beat the index on both — not because I called the reversal, but because a short-call book's negative gamma breathes for you: exposure grows into declines and shrinks into rallies. Here's how the breathing machine works, and what it charges.",
+   "tags": [
+    "investing",
+    "options",
+    "review",
+    "leverage"
+   ],
+   "category": "investment",
+   "series": "daily-review",
+   "image": "https://blog-options.tianli.cyou/images/blog/leverage-that-breathes/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/leverage-that-breathes",
+   "views": 0
+  },
+  {
+   "slug": "keep-yourself-reversible",
+   "lang": "zh",
+   "title": "用结构上的可逆,买行为上的顽固",
+   "date": "2026-07-11",
+   "excerpt": "可逆性不是\"能不能反悔\",是\"反悔要花多少钱\";自尊不是越低越好,是要校准到事实;坚持还是固执,词是事后按结果补发的——事前你唯一能控制的是结构。用结构上的可逆,买行为上的顽固。",
+   "tags": [
+    "投资思维",
+    "哲学",
+    "风险",
+    "决策"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/keep-yourself-reversible/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/keep-yourself-reversible",
+   "views": 0
+  },
+  {
+   "slug": "keep-yourself-reversible",
+   "lang": "en",
+   "title": "Buy Behavioral Stubbornness with Structural Reversibility",
+   "date": "2026-07-11",
+   "excerpt": "Reversibility isn't \"can you take it back\" — it's \"how much does taking it back cost.\" Ego isn't better the lower it goes — it should be calibrated to the facts. Persistence versus stubbornness: the word is issued afterward, based on the result — the one thing you can control beforehand is structure. Buy behavioral stubbornness with structural reversibility.",
+   "tags": [
+    "Investment Mindset",
+    "Philosophy",
+    "Risk",
+    "Decision-Making"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/keep-yourself-reversible/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/keep-yourself-reversible",
+   "views": 0
+  },
+  {
+   "slug": "steady-through-the-chip-selloff",
+   "lang": "zh",
+   "title": "半导体绞肉周,我第一次坐进了观众席",
+   "date": "2026-07-11",
+   "excerpt": "海力士敲钟、英特尔失血的同一周:28 张 call 到期,负债一天收窄 44%,标的 −2.4% 而组合 +0.8%。这个「稳」不是心态变好了,是结构决定的——绞肉机绞不到不需要盘中做决定的人。",
+   "tags": [
+    "投资",
+    "期权",
+    "复盘",
+    "杠杆"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/steady-through-the-chip-selloff/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/steady-through-the-chip-selloff",
+   "views": 0
+  },
+  {
+   "slug": "steady-through-the-chip-selloff",
+   "lang": "en",
+   "title": "A Meat-Grinder Week for Chips — and My First Time in the Audience",
+   "date": "2026-07-11",
+   "excerpt": "SK Hynix rang the bell while Intel bled out, all in the same week: 28 of my short calls expired, margin debt shrank 44% in one day, my second-largest holding fell 2.4% while the portfolio gained 0.8%. The calm wasn't mindset — it was structure.",
+   "tags": [
+    "investing",
+    "options",
+    "review",
+    "leverage"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/steady-through-the-chip-selloff/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/steady-through-the-chip-selloff",
+   "views": 0
+  },
+  {
+   "slug": "strategic-retreat-from-alpha",
+   "lang": "zh",
+   "title": "战略撤退:我把期权策略里的 alpha 全删了",
+   "date": "2026-07-09",
+   "excerpt": "真金白银测完:单名 VRP 信号是噪声,自动交易零胜五负,连备兑卖 call 风险调整后 edge 也 ≈ 0。这场撤退删掉了所有'赚 alpha'的部分,留下 beta 底座、算出来的杠杆上限,和几条把情绪关在门外的机械规则。",
+   "tags": [
+    "投资",
+    "投资思维",
+    "期权",
+    "风险"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/strategic-retreat-from-alpha/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/strategic-retreat-from-alpha",
+   "views": 0
+  },
+  {
+   "slug": "strategic-retreat-from-alpha",
+   "lang": "en",
+   "title": "Strategic Retreat: I Deleted Every Alpha Component From My Options Strategy",
+   "date": "2026-07-09",
+   "excerpt": "Tested with real money: the single-name VRP signal is noise, automated trading went 0-for-5 at −4.5%, and even covered calls show risk-adjusted edge ≈ 0. What survived the retreat: a beta core, a leverage cap computed from stress tests, and a few mechanical rules that keep emotion out of the room.",
+   "tags": [
+    "Investing",
+    "Investment Mindset",
+    "Options",
+    "Risk"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/strategic-retreat-from-alpha/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/strategic-retreat-from-alpha",
+   "views": 0
+  },
+  {
+   "slug": "two-minutes-from-the-bottom",
+   "lang": "zh",
+   "title": "距日内低点两分钟:手还是动了,但本金没动",
+   "date": "2026-07-09",
+   "excerpt": "恐慌下杀那两天,所有信号都在喊割肉。结账:股票底仓一股没卖,低位甚至还加了仓——最重要的事守住了;但手还是在期权腿上动了,最后两笔 roll 骑在日内低点两侧、各差两分钟,V 型反转直接碾过,四对 whipsaw 净 −$355。这篇按真实订单流逐笔复盘:哪里守住了、哪里破功了,以及把「盘中要不要动手」这个判断本身从工序里删掉的修法。",
+   "tags": [
+    "投资",
+    "期权",
+    "风险",
+    "复盘"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/two-minutes-from-the-bottom/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/two-minutes-from-the-bottom",
+   "views": 0
+  },
+  {
+   "slug": "two-minutes-from-the-bottom",
+   "lang": "en",
+   "title": "Two Minutes From the Bottom: My Hands Moved, My Principal Didn't",
+   "date": "2026-07-09",
+   "excerpt": "Two panic days where every signal screamed sell. The ledger: not a single share of the core position sold — I even added near the low. But my hands still moved on the options overlay: the last two rolls straddled the intraday low by two minutes each side, the V-reversal ran them over, and four whipsaw pairs netted −$355. A trade-by-trade forensic of what held, what broke, and the procedure that deletes the 'should I act intraday?' decision itself.",
+   "tags": [
+    "Investing",
+    "Options",
+    "Risk",
+    "Post-mortem"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/two-minutes-from-the-bottom/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/two-minutes-from-the-bottom",
+   "views": 0
+  },
+  {
+   "slug": "circle-of-competence-is-relative",
+   "lang": "zh",
+   "title": "你以为你懂,其实你是那个冤大头",
+   "date": "2026-06-18",
+   "excerpt": "能力圈不衡量你懂多少,它衡量对面那个人懂多少。一个\"patsy 测试\"把你和被宰的人分开,顺便给你一张下单前默念五问的清单。",
+   "tags": [
+    "投资",
+    "投资思维",
+    "能力圈",
+    "心理"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/circle-of-competence-is-relative/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/circle-of-competence-is-relative",
+   "views": 0
+  },
+  {
+   "slug": "circle-of-competence-is-relative",
+   "lang": "en",
+   "title": "You Think You Understand? You Might Be the Patsy",
+   "date": "2026-06-18",
+   "excerpt": "Your circle of competence isn't measured by what you know—it's measured by what the person on the other side of the trade knows. A 'patsy test,' plus five questions to run silently before you place an order.",
+   "tags": [
+    "Investing",
+    "Investment Mindset",
+    "Circle of Competence",
+    "Psychology"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/circle-of-competence-is-relative/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/circle-of-competence-is-relative",
+   "views": 0
+  },
+  {
+   "slug": "four-buckets-of-investment-returns",
+   "lang": "zh",
+   "title": "你赚的,是本事还是潮水?",
+   "date": "2026-06-18",
+   "excerpt": "牛市里人人都是股神。但你上次赚钱,大概率只是潮水在涨,跟你的判断没关系。把盈亏诚实拆进四个桶,你才知道该不该高兴——以及还能不能复制。",
+   "tags": [
+    "投资",
+    "投资思维",
+    "认知"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/four-buckets-of-investment-returns/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/four-buckets-of-investment-returns",
+   "views": 0
+  },
+  {
+   "slug": "four-buckets-of-investment-returns",
+   "lang": "en",
+   "title": "Your Returns: Skill, or Just the Rising Tide?",
+   "date": "2026-06-18",
+   "excerpt": "In a bull market everyone's a genius—and that's exactly the problem. Sort every gain and loss into four buckets (beta, risk premium, alpha, luck) and you'll see how much of your 'edge' is really just borrowed.",
+   "tags": [
+    "Investing",
+    "Investment Mindset",
+    "Alpha and Beta",
+    "Risk Premium"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/four-buckets-of-investment-returns/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/four-buckets-of-investment-returns",
+   "views": 0
+  },
+  {
+   "slug": "most-stable-strategies-sell-insurance",
+   "lang": "zh",
+   "title": "天天赚钱的曲线,最该让你害怕",
+   "date": "2026-06-18",
+   "excerpt": "一条几乎不回撤、天天赚一点点的曲线,常常不是稳健的证明,而是凹结构最典型的长相——你在卖保险,只是还没出险。一个一眼识破它的测试。",
+   "tags": [
+    "投资",
+    "投资思维",
+    "期权",
+    "风险"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/most-stable-strategies-sell-insurance/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/most-stable-strategies-sell-insurance",
+   "views": 0
+  },
+  {
+   "slug": "most-stable-strategies-sell-insurance",
+   "lang": "en",
+   "title": "The Steadiest Profit Curve Should Scare You Most",
+   "date": "2026-06-18",
+   "excerpt": "A curve that earns a little almost every day with barely any drawdown is usually not proof of safety—it's the textbook shape of a concave payoff. You're selling insurance; the claim just hasn't come due. Here's a test to spot it.",
+   "tags": [
+    "Investing",
+    "Investment Mindset",
+    "Options",
+    "Risk",
+    "Convexity"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/most-stable-strategies-sell-insurance/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/most-stable-strategies-sell-insurance",
+   "views": 0
+  },
+  {
+   "slug": "position-sizing-is-destiny",
+   "lang": "zh",
+   "title": "每把都对你有利,为什么照样破产",
+   "date": "2026-06-18",
+   "excerpt": "一个每把都对你有利的赌局,照样能让你以概率 1 输光——因为决定长期命运的不是赔率,是你押了多大。这是\"第一条:不要亏钱\"的数学版。",
+   "tags": [
+    "投资",
+    "投资思维",
+    "仓位",
+    "风险"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/position-sizing-is-destiny/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/position-sizing-is-destiny",
+   "views": 0
+  },
+  {
+   "slug": "position-sizing-is-destiny",
+   "lang": "en",
+   "title": "Every Bet in Your Favor, Yet Still Bankrupt: Position Sizing Is Destiny",
+   "date": "2026-06-18",
+   "excerpt": "A game that favors you every single round can still wipe you out with probability 1—because long-run fate is decided not by the odds but by how much you bet. The math behind 'Rule No. 1: don't lose money.'",
+   "tags": [
+    "Investing",
+    "Investment Mindset",
+    "Position Sizing",
+    "Risk",
+    "Kelly Criterion"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/position-sizing-is-destiny/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/position-sizing-is-destiny",
+   "views": 0
+  },
+  {
+   "slug": "risk-is-permanent-loss-not-volatility",
+   "lang": "zh",
+   "title": "你最怕的风险,你的指标根本不测",
+   "date": "2026-06-18",
+   "excerpt": "你用来量风险的那把尺子,可能恰恰在你最危险的时候,显示『安全』。",
+   "tags": [
+    "投资",
+    "投资思维",
+    "风险"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/risk-is-permanent-loss-not-volatility/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/risk-is-permanent-loss-not-volatility",
+   "views": 0
+  },
+  {
+   "slug": "risk-is-permanent-loss-not-volatility",
+   "lang": "en",
+   "title": "The Risk You Fear Most Is the One Your Metrics Don't Measure",
+   "date": "2026-06-18",
+   "excerpt": "What you truly fear is the permanent loss of capital—but the industry's favorite 'risk' number, volatility (σ), measures something else entirely, and the two often move in opposite directions.",
+   "tags": [
+    "Investing",
+    "Investment Mindset",
+    "Risk",
+    "Volatility",
+    "Tail Risk"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/risk-is-permanent-loss-not-volatility/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/risk-is-permanent-loss-not-volatility",
+   "views": 0
+  },
+  {
+   "slug": "same-strategy-different-markets",
+   "lang": "zh",
+   "title": "同一把刀,在美股做手术,在A股是裸奔",
+   "date": "2026-06-18",
+   "excerpt": "同一套卖波动率的打法,在美股是精细施工,在A股近乎裸卖保险。差的不是水平,是市场结构喂不喂得起这套策略要吃的无效性——而结构对策略有一票否决权。",
+   "tags": [
+    "投资",
+    "投资思维",
+    "A股",
+    "美股"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/same-strategy-different-markets/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/same-strategy-different-markets",
+   "views": 0
+  },
+  {
+   "slug": "same-strategy-different-markets",
+   "lang": "en",
+   "title": "Same Blade: Surgery in US Stocks, Bare-Handed in A-Shares",
+   "date": "2026-06-18",
+   "excerpt": "A strategy that makes money reliably in US equities can bleed just as reliably in A-shares—with zero change in your skill. Market microstructure holds veto power over any strategy.",
+   "tags": [
+    "Investing",
+    "Investment Mindset",
+    "Market Structure",
+    "A-Shares",
+    "Options"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/same-strategy-different-markets/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/same-strategy-different-markets",
+   "views": 0
+  },
+  {
+   "slug": "selling-volatility-convexity",
+   "lang": "zh",
+   "title": "每天都赚一点点的策略,最该让你警惕",
+   "date": "2026-06-18",
+   "excerpt": "一个策略几乎天天赚、很少回撤,先别高兴——大概率你在卖保险,只是保险还没出险。一个一眼识别它的测试。",
+   "tags": [
+    "投资思维",
+    "凸性",
+    "卖波动率",
+    "尾部风险"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/selling-volatility-convexity/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/selling-volatility-convexity",
+   "views": 0
+  },
+  {
+   "slug": "selling-volatility-convexity",
+   "lang": "en",
+   "title": "The Strategy That Earns a Little Every Day Is the One to Fear",
+   "date": "2026-06-18",
+   "excerpt": "When a strategy earns a little almost every day and rarely draws down, your first reaction shouldn't be delight—it should be caution. That smooth curve is the signature of selling insurance before the claim comes due.",
+   "tags": [
+    "Investing",
+    "Investment Mindset",
+    "Convexity",
+    "Volatility",
+    "Risk Premium"
+   ],
+   "category": "investment",
+   "series": null,
+   "image": "https://blog-options.tianli.cyou/images/blog/selling-volatility-convexity/hero.jpg",
+   "url": "https://blog-options.tianli.cyou/en/selling-volatility-convexity",
+   "views": 0
+  }
+ ]
+}

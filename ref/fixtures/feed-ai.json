@@ -1,0 +1,286 @@
+{
+ "site": {
+  "key": "ai",
+  "title": "AI 方法论",
+  "url": "https://blog-ai.tianli.cyou"
+ },
+ "generated_at": "2026-08-19T02:47:00.893Z",
+ "posts": [
+  {
+   "slug": "moving-ai-into-excel",
+   "lang": "zh",
+   "title": "把 AI 搬进 Excel：一次被「重新生成」逼出来的工作流迁移",
+   "date": "2026-08-05",
+   "excerpt": "脚本生成工作簿两次碾掉我手工调好的图之后，我把 AI 从「在外面生成文件」搬进了 Excel 侧栏就地干活——真正难搬的不是工具，是攒了两年的规矩：怎么打包、怎么分层、怎么让一个没有记忆的助手长记性。",
+   "tags": [
+    "AI协作",
+    "Excel",
+    "工作流",
+    "水利工程"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/moving-ai-into-excel/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/moving-ai-into-excel",
+   "views": 0
+  },
+  {
+   "slug": "moving-ai-into-excel",
+   "lang": "en",
+   "title": "Moving the AI Into Excel: A Workflow Migration Forced by 'Regenerate'",
+   "date": "2026-08-05",
+   "excerpt": "After a script-generated workbook flattened my hand-tuned charts twice, I moved the AI from generating files outside to working in place inside Excel's sidebar — and the hard part wasn't the tool, it was repackaging two years of hard-earned rules for an assistant with no memory.",
+   "tags": [
+    "ai-collaboration",
+    "excel",
+    "workflow",
+    "water-engineering"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/moving-ai-into-excel/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/en/moving-ai-into-excel",
+   "views": 0
+  },
+  {
+   "slug": "draw-your-ai-setup",
+   "lang": "zh",
+   "title": "我给 AI 助手的配置画了张图 —— TL Harness 说明书",
+   "date": "2026-07-30",
+   "excerpt": "228 个零件、677 篇笔记，我说不出哪些还在转。名单能告诉你有什么，答不出「删掉这个会断谁」——于是我把关系画成了图，顺带发现 419 篇笔记的类型标错了，而所有计数都是自洽的。",
+   "tags": [
+    "AI",
+    "Claude",
+    "开发工具",
+    "可视化",
+    "Swift"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/draw-your-ai-setup/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/draw-your-ai-setup",
+   "views": 0
+  },
+  {
+   "slug": "draw-your-ai-setup",
+   "lang": "en",
+   "title": "I Drew a Map of My Own AI Setup — The TL Harness Manual",
+   "date": "2026-07-30",
+   "excerpt": "228 parts, 677 notes, and I couldn't tell you which ones were still turning. An inventory tells you what you have; it can't answer \"what breaks if I delete this?\" So I drew the relationships — and found that 419 of my notes were mislabeled while every single count added up perfectly.",
+   "tags": [
+    "AI",
+    "Claude",
+    "Developer Tools",
+    "Visualization",
+    "Swift"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/draw-your-ai-setup/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/en/draw-your-ai-setup",
+   "views": 0
+  },
+  {
+   "slug": "over-optimism-is-pessimism",
+   "lang": "zh",
+   "title": "过度乐观，就是悲观",
+   "date": "2026-07-23",
+   "excerpt": "你感受到的从来不是现实本身，是现实减去预期。现实好过预期才有多巴胺，不如预期就只有失望。所以过度乐观就是悲观——预期抬到天上，现实天天让你失望。教条式的乐观和自信，本质是把预期拉满，在批量给自己制造失望。而两千年前的斯多葛给出了另一种乐观：预期压到最坏，接受一切并从中学习——高预期容易 miss，低预期容易 beat。",
+   "tags": [
+    "方法论",
+    "认知",
+    "决策",
+    "斯多葛"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/over-optimism-is-pessimism/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/over-optimism-is-pessimism",
+   "views": 0
+  },
+  {
+   "slug": "emotional-value-reward-signal",
+   "lang": "zh",
+   "title": "情绪价值是个强化信号",
+   "date": "2026-07-22",
+   "excerpt": "情绪价值不是有用没用的问题，它是个强化信号——本身没有方向。绑在真实能力上，它是燃料；和能力脱钩，它是高能耗、不稳定、还会把你锁在错误的行为上。而当前这个内卷、下行、上升通道变窄的环境，正在系统性地让它脱钩——所以它的负作用在放大。",
+   "tags": [
+    "方法论",
+    "认知",
+    "决策",
+    "工程思维"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/emotional-value-reward-signal/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/emotional-value-reward-signal",
+   "views": 0
+  },
+  {
+   "slug": "my-work-operating-system",
+   "lang": "zh",
+   "title": "靠结构，不靠记性",
+   "date": "2026-07-22",
+   "excerpt": "重复的错误不该靠记性解决，该靠结构解决。教训记在笔记里是愿望，写进拦截钩子里才是制度。三个亲身的坑——一个看不见的字体、一次并发提交、一份报错的台账——机制是同一个：只要'做对'还依赖某个人当场不出错，错误就永远有复发的地方。把这个依赖拆掉。",
+   "tags": [
+    "方法论",
+    "AI协作",
+    "工作流",
+    "工程思维"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/my-work-operating-system/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/my-work-operating-system",
+   "views": 0
+  },
+  {
+   "slug": "kimi-claude-gpt-routing",
+   "lang": "zh",
+   "title": "三家订阅的跑分账：K3 管量、Claude 管质、GPT 管尖",
+   "date": "2026-07-19",
+   "excerpt": "Kimi K3 发布放出 14 项对比跑分,我把两张图逐项抄了一遍对照自己用法:K3 五冠全是高频体力活(长程 agentic/联网调研/自动化),Fable 5 六冠全是案头质感活,GPT-5.6 两冠是尖峰脑力活。按任务性格分工:K3 管干活的量,Claude 管成稿的质,GPT 管推理的尖——附五类任务路由表。",
+   "tags": [
+    "AI工具",
+    "模型选型",
+    "工作流",
+    "Kimi"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/kimi-claude-gpt-routing/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/kimi-claude-gpt-routing",
+   "views": 0
+  },
+  {
+   "slug": "kimi-claude-gpt-routing",
+   "lang": "en",
+   "title": "The Benchmark Bill for Three Subscriptions: K3 for Volume, Claude for Quality, GPT for Spikes",
+   "date": "2026-07-19",
+   "excerpt": "Kimi K3 shipped with 14 head-to-head benchmarks. I transcribed both charts line by line and mapped them against my own usage: K3's five wins are all high-frequency grunt work (long-horizon agentic, web research, automation), Fable 5's six wins are all desk-quality work, GPT-5.6's two wins are peak-brain work. Route by task personality: K3 for volume, Claude for quality, GPT for spikes — full routing table inside.",
+   "tags": [
+    "AI tools",
+    "model selection",
+    "workflow",
+    "Kimi"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/kimi-claude-gpt-routing/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/en/kimi-claude-gpt-routing",
+   "views": 0
+  },
+  {
+   "slug": "how-to-brief-an-ai",
+   "lang": "zh",
+   "title": "把活说清楚：一次 AI 协作的完整复盘",
+   "date": "2026-07-16",
+   "excerpt": "我和 AI 协作完成了一个技术方案，从起草到终稿几十轮。坑不值钱，复盘才值钱：几乎每个坑都指向同一件事——初始条件和边界条件是什么时候、以什么方式说清楚的。开工前一句话，抵得上后面十轮纠错。文末附一份 30 秒交底清单，对 AI 和人类协作者同样适用。",
+   "tags": [
+    "AI协作",
+    "复盘",
+    "方法论",
+    "工作流"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/how-to-brief-an-ai/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/how-to-brief-an-ai",
+   "views": 0
+  },
+  {
+   "slug": "how-to-brief-an-ai",
+   "lang": "en",
+   "title": "Say It Clearly: A Full Postmortem of Working with AI",
+   "date": "2026-07-16",
+   "excerpt": "I co-wrote a technical proposal with AI — dozens of rounds from first draft to final. The potholes weren't the valuable part; the postmortem was: almost every one traced back to the same thing — when, and how clearly, the initial conditions and boundary conditions were stated. One sentence before kickoff beats ten rounds of corrections. Ends with a 30-second briefing checklist that works for AI and human collaborators alike.",
+   "tags": [
+    "AI collaboration",
+    "postmortem",
+    "methodology",
+    "workflow"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/how-to-brief-an-ai/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/en/how-to-brief-an-ai",
+   "views": 0
+  },
+  {
+   "slug": "claude-code-harness-architecture",
+   "lang": "zh",
+   "title": "如何构建企业级 Claude Code Harness 体系",
+   "date": "2026-04-13",
+   "excerpt": "从 43 个 commands 到 14 个 skills，从 hooks 自动化到 MCP 生态集成——一套完整的 LLM 工具链工程化方法论。",
+   "tags": [
+    "AI",
+    "LLM",
+    "Claude",
+    "开发工具",
+    "自动化"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/claude-code-harness-architecture/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/claude-code-harness-architecture",
+   "views": 0
+  },
+  {
+   "slug": "claude-code-harness-architecture",
+   "lang": "en",
+   "title": "Building an Enterprise-Grade Claude Code Harness",
+   "date": "2026-04-13",
+   "excerpt": "From 43 commands to 14 skills, from hook automation to MCP integration — a complete engineering methodology for LLM toolchains.",
+   "tags": [
+    "ai",
+    "llm",
+    "claude",
+    "developer-tools",
+    "automation"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/claude-code-harness-architecture/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/en/claude-code-harness-architecture",
+   "views": 0
+  },
+  {
+   "slug": "mcp-agent-ecosystem",
+   "lang": "zh",
+   "title": "MCP 协议实战：从代码检索到 gmail 的 Agent 生态",
+   "date": "2026-04-12",
+   "excerpt": "3 个 MCP Server、512+ 会话记录、语义搜索——一套真正用起来的 AI Agent 工具生态是怎么搭的。",
+   "tags": [
+    "AI",
+    "Agent",
+    "MCP",
+    "LLM",
+    "Claude"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/mcp-agent-ecosystem/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/mcp-agent-ecosystem",
+   "views": 0
+  },
+  {
+   "slug": "mcp-agent-ecosystem",
+   "lang": "en",
+   "title": "MCP in Practice: An Agent Ecosystem from Code Search to Gmail",
+   "date": "2026-04-12",
+   "excerpt": "Three MCP servers, 512+ session records, semantic search — how to build an AI Agent toolchain that actually gets used daily.",
+   "tags": [
+    "ai",
+    "agent",
+    "mcp",
+    "llm",
+    "claude"
+   ],
+   "category": "ai",
+   "series": "ai-method",
+   "image": "https://blog-ai.tianli.cyou/images/blog/mcp-agent-ecosystem/hero.jpg",
+   "url": "https://blog-ai.tianli.cyou/en/mcp-agent-ecosystem",
+   "views": 0
+  }
+ ]
+}

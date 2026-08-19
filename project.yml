@@ -1,0 +1,31 @@
+name: BlogReader
+options:
+  bundleIdPrefix: cyou.tianli
+  deploymentTarget: { iOS: "18.0" }
+  createIntermediateGroups: true
+settings:
+  base:
+    # 免费 Apple ID 走自动签名。DEVELOPMENT_TEAM 留空：install-to-iphone.sh 从 Xcode 偏好读了传进来。
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "5.0"
+targets:
+  BlogReader:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+      - path: Resources/Assets.xcassets
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: cyou.tianli.blogreader
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: 我的文章
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        GENERATE_INFOPLIST_FILE: YES
+        MARKETING_VERSION: "0.1"
+        CURRENT_PROJECT_VERSION: "1"
+    scheme:
+      testTargets: []
+      configVariants: []

@@ -1,0 +1,18 @@
+{
+ "site": { "key": "tol", "title": "容忍度夹具", "url": "https://example.invalid" },
+ "generated_at": "2026-08-19T00:00:00.000Z",
+ "posts": [
+  { "slug": "minimal", "lang": "zh", "title": "只有必需字段", "date": "2026-01-02",
+    "url": "https://example.invalid/minimal" },
+  { "slug": "future-field", "lang": "zh", "title": "站那边先加了新字段", "date": "2026-01-02",
+    "excerpt": "app 还不认识 reading_minutes,不该整份解析失败", "tags": ["契约"],
+    "category": "x", "series": null, "image": null,
+    "url": "https://example.invalid/future-field", "views": 7, "reading_minutes": 12 },
+  { "slug": "same-day-a", "lang": "zh", "title": "B 同日靠后", "date": "2026-01-01",
+    "url": "https://example.invalid/a", "views": 0 },
+  { "slug": "same-day-b", "lang": "zh", "title": "A 同日靠前", "date": "2026-01-01",
+    "url": "https://example.invalid/b", "views": 0 },
+  { "slug": "minimal", "lang": "en", "title": "English mirror of the same slug", "date": "2026-01-02",
+    "url": "https://example.invalid/en/minimal" }
+ ]
+}
