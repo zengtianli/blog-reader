@@ -118,7 +118,7 @@ DISPLAY_NAME=${DISPLAY_NAME:-$PROJ}
 cat <<EOF
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✅ 手机主屏找「\${DISPLAY_NAME}」。
+✅ 手机主屏找「${DISPLAY_NAME}」。
 
 ⚠ 首次打开若提示「不受信任的开发者」:
    设置 → 通用 → VPN 与设备管理 → 开发者应用 → 你的 Apple ID → 信任
