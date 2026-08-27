@@ -1,0 +1,1 @@
+check-markdown-drift.sh  # 这脚本的职责就是对账上游 ask-claude 的 MarkdownView.swift,提到它是正确的

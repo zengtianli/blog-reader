@@ -38,8 +38,8 @@ notes: |
 key_scripts:
   - build.sh                    # swiftc 直编 + 手搓 .app + actool 编图标(模拟器)
   - install-to-iphone.sh        # 真机:挑 Xcode(总部 SSOT) → 找设备 → 取 Team → 编签 → 装
-  - detect_device.py            # 设备探测唯一实现(脚本与测试都调它)
-  - test-device-detect.py       # 11 例双向验证
+  - ~/Dev/tools/dev/lib/tools/macapp/ios/detect_device.py            # 设备探测唯一实现(脚本与测试都调它)
+  - ~/Dev/tools/dev/lib/tools/macapp/ios/test-device-detect.py       # 11 例双向验证
   - check-markdown-drift.sh     # MarkdownView 与上游 ask-claude 逐字节一致
   - make_icon.py                # 图标(三个来源汇成一条阅读流)
   - ref/expect.js, ref/main.swift, ref/diff.js   # 解析层回归三件套
