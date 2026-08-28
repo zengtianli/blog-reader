@@ -48,6 +48,29 @@ GET https://blog-options.tianli.cyou/feed.json
    密码进 Keychain（`kSecAttrAccessibleAfterFirstUnlock`），cookie 交给 URLSession 的
    cookie jar 管，HttpOnly 壳不拆。服务端返回体里那个 `cookie` 字段是给小程序用的，别取。
 
+### 密码怎么进去的（零手工）
+
+```bash
+# 只做一次:存进 macOS 钥匙串
+security add-generic-password -U -s tlz-gate -a "$(whoami)" -w '<闸密码>'
+
+bash install-to-iphone.sh && bash seed-gate.sh   # 装机 + 喂一次
+```
+
+`seed-gate.sh` 从 macOS 钥匙串取密码 → **先在本机验一次**（不验就喂的话，密码错了的
+表现是「喂了、没反应」）→ 用 `devicectl ... -- -gatepw <值>` 启动 app 一次。
+app 拿到后再验一次、**验过才写 iOS 钥匙串**；错密码静默丢弃（存错密码会让它
+每次刷新都去撞限流，而界面上显示的是「已登录」）。
+
+启动参数只在那一次启动里存在（`NSArgumentDomain`），不落 UserDefaults 文件；
+主屏点开的启动没有它。
+
+> **为什么密码源是 macOS 钥匙串，不是 `~/.personal_env`**：2026-08-28 实测
+> `XCBuildData` 会把构建时的**完整环境连值一起**记进中间产物 —— 当时那里躺着
+> 68 个真实凭证的明文。凭证一旦进环境变量，就会跟着构建产物散出去。
+> 现在 HQ 的 `install-to-iphone.sh` / `sim-run.sh` 已用 `scrub_env.sh` 摘掉它们，
+> 机器层对账 `python3 ~/Dev/tools/dev/lib/tools/macapp/secret_leak_audit.py`。
+
 ### 验证
 
 ```bash

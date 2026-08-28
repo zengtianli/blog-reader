@@ -163,6 +163,11 @@ final class Store: ObservableObject {
 
     var gateHasCredential: Bool { Gate.hasPassword }
 
+    /// 装机时喂进来的密码（`-gatepw`）。没喂就什么都不做。
+    func seedGateFromLaunchArg() async {
+        await Gate.seedFromLaunchArg(session: session)
+    }
+
     /// 用户输了闸密码 → 登进去、记住、立刻重刷。成功返回 nil，失败返回给人看的原因。
     func signInGate(_ password: String) async -> String? {
         do {

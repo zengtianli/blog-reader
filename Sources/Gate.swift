@@ -79,6 +79,30 @@ enum Gate {
                        kSecAttrAccount as String: account] as CFDictionary)
     }
 
+    /// 装机时用启动参数喂进来的密码 —— 让「第一次要输一次密码」这步不用人做。
+    ///
+    /// `-gatepw <值>` 会被 iOS 放进 `NSArgumentDomain`，**只在那一次启动里存在**，
+    /// 不落 UserDefaults 文件。我们拿到后立刻拿它换一次会话，**验过才写钥匙串**，
+    /// 之后这个参数再也不出现（主屏点开的启动没有它）。
+    ///
+    /// 为什么密码源是 **macOS 钥匙串**而不是 `~/.personal_env`：
+    /// 2026-08-28 实测 `XCBuildData` 会把构建时的完整环境**连值一起**记进中间产物
+    /// （当时那里躺着 68 个真实凭证的明文）。凭证一旦进了环境变量，就会跟着构建
+    /// 产物散出去；钥匙串不会。喂法见 `seed-gate.sh`。
+    static func seedFromLaunchArg(session: URLSession) async {
+        guard let pw = UserDefaults.standard.string(forKey: "gatepw"),
+              !pw.isEmpty else { return }
+        // 已经有一份能用的就不动它 —— 免得每次装机都白跑一次登录、白撞一次限流
+        if let cur = password, cur == pw { return }
+        do {
+            try await login(password: pw, session: session)
+            savePassword(pw)
+        } catch {
+            // 喂进来的密码不对就当没喂过。这里不能存 —— 存了会让 app
+            // 每次刷新都拿错密码去撞限流，而界面上显示的是「已登录」。
+        }
+    }
+
     // MARK: - 登录
 
     struct Failure: Error { let message: String }

@@ -81,6 +81,9 @@ struct ContentView: View {
         .tint(Palette.accent)
         .preferredColorScheme(.light)
         .task {
+            // 先吃装机时喂进来的闸密码（如果有），再刷 —— 顺序反了的话
+            // 第一次刷新必然撞闸，用户会看到一条本不该出现的横幅。
+            await store.seedGateFromLaunchArg()
             await store.refresh()
             // 截图/验收用：`--open=<siteKey>/<slug>` 直接进阅读页。
             // 靠手点模拟器截不出可复现的图，改一版就得重点一遍。
