@@ -20,6 +20,48 @@
 > （和 `/api/tts/<slug>` 同一做法）。别在接口里加「兜底」判断 —— 那是在造第二个 SSOT，
 > 两份判据必然漂移，而漂移的方向是**私密文章从新接口漏出去**。
 
+## `blog-options` 在访问闸后面（2026-08-28）
+
+那个站**整站**挂着 authgate（2026-08-21 用户钦定「整站 authgate，不进任何导航」）。
+所以取它的 feed 会拿到 302 → 登录页的 **200 HTML**：
+
+```
+GET https://blog-options.tianli.cyou/feed.json
+  → 302  location: /_gate/login?next=/feed.json
+  → 200  text/html                              ← URLSession 默认跟 302，到手的是这个
+```
+
+**表现是那个站静默贡献 0 篇**，错误条上只有一句「options: 解析失败」——
+既不像错误、也指不出方向。实测那天它有 **82 篇**文章，一篇都没进来。
+
+用户 2026-08-28 钦定：「我的期权文章也要放到「我的文章」这个 app 里，**这个 app 就我自用**」
+→ 授权这个私人客户端**带凭证**读受闸站。
+
+### 三条别改错方向的
+
+1. **不在闸上给 `/feed.json` 开洞。** 那会让期权文章对全网公开，而闸正是用户自己要的。
+   客户端拿凭证 ≠ 内容变公开。边界写在 SSOT
+   `~/Dev/tools/dev/lib/tools/cc/blog_sites.yaml` 的 `options.access` 注释里。
+2. **闸的判据是「最终 URL 落在 `/_gate/` 下」**，不是状态码、也不是 HTML 里有什么字
+   （`Gate.blocked(_:)`）。状态码分辨不出来；嗅 HTML 是给页面文案建第二份判据。
+3. **存密码不存 cookie。** 会话只有 7 天（服务端 `API_SESSION_DAYS`），存密码才能自动续；
+   密码进 Keychain（`kSecAttrAccessibleAfterFirstUnlock`），cookie 交给 URLSession 的
+   cookie jar 管，HttpOnly 壳不拆。服务端返回体里那个 `cookie` 字段是给小程序用的，别取。
+
+### 验证
+
+```bash
+# 从 VPS 用 TLZ_GATE_SECRET 现签一枚 cookie（不需要知道密码）
+CK=$(ssh root@104.218.100.67 'cd /var/www/authgate && set -a && . /etc/tlz/secrets.env && set +a &&   python3 -c "import gate,os; print(gate.issue_cookie(os.environ[\"TLZ_GATE_SECRET\"], days=1)[0])"')
+xcrun swiftc -O Sources/Feed.swift Sources/Gate.swift ref/gate/main.swift -o /tmp/gate_probe
+PROBE_COOKIE="$CK" /tmp/gate_probe        # 三段：认得出闸 / cookie 过子域 / 解析出 82 篇
+```
+
+> ⚠ **`HTTPCookieStorage()` 这个 init 出来的实例是哑对象** —— setCookie 进去
+> `cookies` 仍是 0 枚、`cookies(for:)` 永远返回空（2026-08-28 实测）。
+> 第一版探针用了它，于是报出「跨子域这条路走不通」这个**假结论**，差点据此把整套设计推翻。
+> 必须用 `HTTPCookieStorage.shared`。**测试工具自己出错时，长得跟被测系统出错一模一样。**
+
 ## 三条硬规矩
 
 ### ① 缓存两段式，且正文放 Application Support 不放 Caches
@@ -66,4 +108,5 @@ node ref/diff.js                                     # → 462 个值 + id 唯�
 全从 `project.yml` 读。所以 `/appios` 教的 `cp -R` 出来的新 app **不用改它** ——
 名字写死在脚本里的话，漏改一处的表现是「编的是新 app、装上去的是旧 app」，而它不会报错。
 
-免费 Personal Team：证书 **7 天到期**，重跑装机脚本即续；同时最多 3 个自签 app。
+签名 team 2026-08-28 起是**付费**的（`B9LJH93LA4`，证书 1 年期，无 3 个自签上限）。
+装机脚本尾部打印的到期日是从包里那张 `embedded.mobileprovision` 实读的，不是写死的文案。

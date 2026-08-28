@@ -22,6 +22,10 @@ final class Store: ObservableObject {
     /// 索引是不是缓存来的（离线时给用户一个诚实的提示，别让人以为看到的是最新的）
     @Published private(set) var isStale = false
     @Published private(set) var lastRefresh: Date?
+    /// 被访问闸挡住、且这一轮没能自动登进去的站（站 key）。
+    /// **必须单独一个状态、不能混进 refreshError** —— 「需要登录」是有解的
+    /// （输个密码就行），「超时」是没解的，混成一句话就没人知道该干什么。
+    @Published private(set) var gated: [String] = []
 
     private let dir: URL
     private let session: URLSession
@@ -66,40 +70,47 @@ final class Store: ObservableObject {
 
         var fresh: [Feed] = []
         var failures: [String] = []
+        var blocked: [Site] = []
 
-        // 三站并发拉。串行的话最慢那个站决定整体等待时间，而它们互不依赖。
-        await withTaskGroup(of: (String, Result<Data, Error>).self) { group in
-            for site in Site.all {
-                group.addTask { [session] in
-                    do {
-                        var req = URLRequest(url: site.feedURL)
-                        req.timeoutInterval = 15
-                        req.cachePolicy = .reloadIgnoringLocalCacheData   // 我们自己管缓存
-                        let (data, resp) = try await session.data(for: req)
-                        guard let http = resp as? HTTPURLResponse, http.statusCode == 200 else {
-                            throw StoreError.http((resp as? HTTPURLResponse)?.statusCode ?? -1)
-                        }
-                        return (site.key, .success(data))
-                    } catch {
-                        return (site.key, .failure(error))
-                    }
-                }
-            }
-            for await (key, result) in group {
-                switch result {
-                case .success(let data):
-                    do {
-                        let f = try FeedParse.feed(data, siteKey: key)
-                        fresh.append(f)
-                        try? data.write(to: feedCache(key), options: .atomic)
-                    } catch {
-                        failures.append("\(key): 解析失败")
-                    }
-                case .failure(let e):
-                    failures.append("\(key): \(short(e))")
-                }
+        var results = await fetchAll(Site.all)
+        blocked = Site.all.filter { results[$0.key]?.isGate == true }
+
+        // 撞闸了、而且手里有密码 → **自动换一次会话再重试**。
+        // 会话只有 7 天（服务端 API_SESSION_DAYS），不自动续的话就变成
+        // 「每周有一天期权文章会凭空消失」，而且没人知道为什么。
+        if !blocked.isEmpty, let pw = Gate.password {
+            do {
+                try await Gate.login(password: pw, session: session)
+                let retried = await fetchAll(blocked)
+                for (k, v) in retried { results[k] = v }
+                blocked = blocked.filter { results[$0.key]?.isGate == true }
+            } catch {
+                // 密码存着却登不进（改过密码 / 撞限流）—— 说出服务端原话，
+                // 别吞掉后把它显示成「需要登录」，那会让人一直重输同一个错密码。
+                failures.append("访问闸: \((error as? Gate.Failure)?.message ?? "登录失败")")
+                Gate.forgetPassword()
             }
         }
+
+        for site in Site.all {
+            switch results[site.key] {
+            case .ok(let data):
+                do {
+                    let f = try FeedParse.feed(data, siteKey: site.key)
+                    fresh.append(f)
+                    try? data.write(to: feedCache(site.key), options: .atomic)
+                } catch {
+                    failures.append("\(site.key): 解析失败")
+                }
+            case .gate:
+                break                       // 不进 failures，走 gated 那条独立的路
+            case .fail(let msg):
+                failures.append("\(site.key): \(msg)")
+            case nil:
+                failures.append("\(site.key): 没有结果")
+            }
+        }
+        gated = blocked.map(\.key)
 
         if fresh.isEmpty {
             // 一站都没拉到 —— 保住缓存内容不清空，只挂错误条。
@@ -120,6 +131,55 @@ final class Store: ObservableObject {
         lastRefresh = Date()
     }
 
+    /// 一轮并发取 feed。串行的话最慢那个站决定整体等待时间，而它们互不依赖。
+    private func fetchAll(_ sites: [Site]) async -> [String: FetchOutcome] {
+        var out: [String: FetchOutcome] = [:]
+        await withTaskGroup(of: (String, FetchOutcome).self) { group in
+            for site in sites {
+                group.addTask { [session] in
+                    do {
+                        var req = URLRequest(url: site.feedURL)
+                        req.timeoutInterval = 15
+                        req.cachePolicy = .reloadIgnoringLocalCacheData   // 我们自己管缓存
+                        let (data, resp) = try await session.data(for: req)
+                        // 闸的判据必须在状态码之前：URLSession 默认跟 302，
+                        // 到手的是登录页的 **200**，只看状态码分辨不出来。
+                        if Gate.blocked(resp) { return (site.key, .gate) }
+                        guard let http = resp as? HTTPURLResponse, http.statusCode == 200 else {
+                            return (site.key, .fail("HTTP \((resp as? HTTPURLResponse)?.statusCode ?? -1)"))
+                        }
+                        return (site.key, .ok(data))
+                    } catch {
+                        return (site.key, .fail(short(error)))
+                    }
+                }
+            }
+            for await (k, v) in group { out[k] = v }
+        }
+        return out
+    }
+
+    // MARK: - 访问闸
+
+    var gateHasCredential: Bool { Gate.hasPassword }
+
+    /// 用户输了闸密码 → 登进去、记住、立刻重刷。成功返回 nil，失败返回给人看的原因。
+    func signInGate(_ password: String) async -> String? {
+        do {
+            try await Gate.login(password: password, session: session)
+            Gate.savePassword(password)          // 只在**验过**之后才存，不存没用的错密码
+            await refresh()
+            return nil
+        } catch {
+            return (error as? Gate.Failure)?.message ?? "登录失败"
+        }
+    }
+
+    func signOutGate() {
+        Gate.forgetPassword()
+        objectWillChange.send()
+    }
+
     // MARK: - 正文
 
     private func postCache(_ p: FeedPost) -> URL {
@@ -137,7 +197,16 @@ final class Store: ObservableObject {
         do {
             var req = URLRequest(url: site.postURL(slug: p.slug, locale: p.lang))
             req.timeoutInterval = 20
-            let (data, resp) = try await session.data(for: req)
+            var (data, resp) = try await session.data(for: req)
+            // 正文接口同样在闸后面。撞上了就换一次会话重来一遍 ——
+            // 少了这段的表现是「列表里看得见标题，点进去永远打不开」。
+            if Gate.blocked(resp), let pw = Gate.password {
+                try? await Gate.login(password: pw, session: session)
+                (data, resp) = try await session.data(for: req)
+            }
+            if Gate.blocked(resp) {
+                return .failure(BodyError(message: "这个站要先登录访问闸（去列表顶部那条横幅）"))
+            }
             guard let http = resp as? HTTPURLResponse else { return .failure(BodyError(message: "无响应")) }
             guard http.statusCode == 200 else {
                 // 404 在这里是有意义的信号：文章被标了私密，或者这个站还没部署新接口。
@@ -170,6 +239,17 @@ final class Store: ObservableObject {
         }
         objectWillChange.send()
     }
+}
+
+/// 取一个站 feed 的三种结局。**「撞闸」必须是独立的一种** ——
+/// 把它折进 .fail 的话，一句「options: 解析失败」既不像错误也指不出方向
+/// （2026-08-28 实测就是这么丢了 82 篇文章的）。
+enum FetchOutcome {
+    case ok(Data)
+    case gate
+    case fail(String)
+
+    var isGate: Bool { if case .gate = self { return true }; return false }
 }
 
 enum StoreError: Error { case http(Int) }

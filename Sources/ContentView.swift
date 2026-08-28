@@ -29,6 +29,10 @@ struct ContentView: View {
     @State private var siteFilter: String? = nil     // nil = 全部
     @State private var query = ""
     @State private var autoOpen: FeedPost?          // --open= 启动参数落点
+    @State private var askGate = false
+    @State private var gatePw = ""
+    @State private var gateErr: String?
+    @State private var gateBusy = false
 
     private var visible: [FeedPost] {
         var xs = store.posts
@@ -66,6 +70,14 @@ struct ContentView: View {
             .searchable(text: $query, prompt: "搜标题 / 摘要 / 标签")
             .navigationDestination(item: $autoOpen) { p in ReaderView(post: p, store: store) }
         }
+        .alert("登录访问闸", isPresented: $askGate) {
+            SecureField("站群密码", text: $gatePw)
+            Button("登录") { Task { await signInGate() } }
+            Button("取消", role: .cancel) { gatePw = "" }
+        } message: {
+            Text(gateErr ?? ("投资日复盘整站挂着访问闸。密码只存本机钥匙串，验过才存；"
+                             + "会话到期会自动续，不用再输。"))
+        }
         .tint(Palette.accent)
         .preferredColorScheme(.light)
         .task {
@@ -81,6 +93,24 @@ struct ContentView: View {
             }
         }
 
+    }
+
+    /// 撞闸的站名 —— 用 feed 里的站名，拿不到（从没成功取过）才回落到 key。
+    private var gatedNames: String {
+        store.gated.map { store.siteTitles[$0] ?? $0 }.joined(separator: " / ")
+    }
+
+    private func signInGate() async {
+        let pw = gatePw; gatePw = ""
+        guard !pw.isEmpty else { return }
+        gateBusy = true
+        gateErr = await store.signInGate(pw)
+        gateBusy = false
+        // 登进去了但站还在 gated 里 = cookie 没生效,这种要说出来,别静默
+        if gateErr == nil && !store.gated.isEmpty {
+            gateErr = "登录成功了，但这些站仍被拦：\(gatedNames)"
+        }
+        if gateErr != nil { askGate = true }
     }
 
     // MARK: 站点筛选
@@ -100,6 +130,25 @@ struct ContentView: View {
                     }
                 }
                 .padding(.horizontal, 14).padding(.vertical, 8)
+            }
+            // 撞闸单独一条,且**可点** —— 「需要登录」是有解的,横幅本身就得是那个入口。
+            // 只显示一句「取不到」而不给按钮,等于告诉人「坏了,但你也没辙」。
+            if !store.gated.isEmpty {
+                Button {
+                    gateErr = nil; gatePw = ""; askGate = true
+                } label: {
+                    HStack(spacing: 6) {
+                        Image(systemName: "lock.fill").font(.system(size: 11))
+                        Text("\(gatedNames) 在访问闸后面 · 点这里登录")
+                            .font(.system(size: 12, weight: .medium))
+                        Spacer()
+                        Image(systemName: "chevron.right").font(.system(size: 10))
+                    }
+                    .foregroundStyle(Palette.site("options"))
+                    .padding(.horizontal, 14).padding(.bottom, 6)
+                    .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
             }
             if let err = store.refreshError {
                 banner(icon: "wifi.slash", text: "刷新没成功，下面是本机缓存 · \(err)", color: Palette.warn)
