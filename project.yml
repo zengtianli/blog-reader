@@ -26,6 +26,9 @@ targets:
         # 四方向全给:上 TestFlight 时 App Store Connect 对 universal(iPhone+iPad)app 强制
         # 要求 iPad 分屏四方向不能缺,只给 Portrait 会在上传阶段被拒(2026-08-29 wrong-book 实证)。
         INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        # 出口合规:声明不使用非豁免加密 → TestFlight 每次传新包不再弹问卷,
+        # 直接进 Ready to Test(缺这行则每个 build 都要人去网页点一次)。
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
         GENERATE_INFOPLIST_FILE: YES
         MARKETING_VERSION: "0.1"
         CURRENT_PROJECT_VERSION: "1"
