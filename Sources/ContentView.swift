@@ -28,7 +28,9 @@ struct ContentView: View {
     @StateObject private var store = Store()
     @State private var siteFilter: String? = nil     // nil = 全部
     @State private var query = ""
-    @State private var autoOpen: FeedPost?          // --open= 启动参数落点
+    /// 选中的文章 = detail 栏在显示谁。iPhone 上 NavigationSplitView 折成栈式，选中即 push；
+    /// iPad / Mac 宽屏两栏并排，侧栏是时间线、右边是正文。`--open=` 启动参数也落这里。
+    @State private var selection: FeedPost?
     @State private var askGate = false
     @State private var gatePw = ""
     @State private var gateErr: String?
@@ -51,7 +53,8 @@ struct ContentView: View {
     }
 
     var body: some View {
-        NavigationStack {
+        // 侧栏 = 原来的整个时间线页；detail = 阅读页。compact（iPhone）下自动折回栈式，外观与改前一致。
+        NavigationSplitView {
             ZStack {
                 Palette.bg.ignoresSafeArea()
                 VStack(spacing: 0) {
@@ -68,8 +71,22 @@ struct ContentView: View {
             .navigationTitle("我的文章")
             .navigationBarTitleDisplayMode(.inline)
             .searchable(text: $query, prompt: "搜标题 / 摘要 / 标签")
-            .navigationDestination(item: $autoOpen) { p in ReaderView(post: p, store: store) }
+            .navigationSplitViewColumnWidth(min: 300, ideal: 380, max: 460)
+        } detail: {
+            if let p = selection {
+                // .id：换一篇时让 ReaderView 重建，`.task` 才会为新文章重新取正文（同一视图只改 post 不会触发）。
+                ReaderView(post: p, store: store).id(p.id)
+            } else {
+                ZStack {
+                    Palette.bg.ignoresSafeArea()
+                    ContentUnavailableView("选一篇文章", systemImage: "doc.text",
+                                           description: Text("左边时间线里点一篇，正文在这里读"))
+                        .foregroundStyle(Palette.dim)
+                }
+            }
         }
+        // iPad 竖屏也两栏并排（默认 .automatic 会把侧栏做成浮层，宽屏只剩一栏）。
+        .navigationSplitViewStyle(.balanced)
         .alert("登录访问闸", isPresented: $askGate) {
             SecureField("站群密码", text: $gatePw)
             Button("登录") { Task { await signInGate() } }
@@ -92,7 +109,7 @@ struct ContentView: View {
                 if parts.count == 2,
                    let hit = store.posts.first(where: {
                        $0.siteKey == String(parts[0]) && $0.slug == String(parts[1]) && $0.lang == "zh"
-                   }) { autoOpen = hit }
+                   }) { selection = hit }
             }
         }
 
@@ -185,9 +202,9 @@ struct ContentView: View {
     // MARK: 时间线
 
     private var list: some View {
-        List {
+        List(selection: $selection) {
             ForEach(visible) { p in
-                NavigationLink { ReaderView(post: p, store: store) } label: { row(p) }
+                NavigationLink(value: p) { row(p) }
                     .listRowBackground(Palette.card)
             }
             Section {
