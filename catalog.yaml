@@ -1,7 +1,9 @@
 name: blog-reader
+bundle_id: cyou.tianli.blogreader   # 派生自 project.yml（SSOT）；fleet_audit a/g 项与 app_registry gate-mac 按它对装机
 origin: own
 lifecycle: active
 form: ios
+platforms: [iphone, ipad, mac]   # 跑在哪（正交于 form=源码住哪）；multiplatform.py audit 与 project.yml 对账
 
 one_liner: 我的三个博客站合成一条时间线 —— 联网拉 feed，正文抓到就永久缓存，离线可读
 
