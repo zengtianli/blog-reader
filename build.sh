@@ -2,10 +2,10 @@
 # iOS 模拟器构建：裸 swiftc 直编 + 手搓 .app，不需要 Xcode 工程、不需要 $99 证书。
 set -euo pipefail
 # ── 挑 Xcode：走总部 SSOT，禁写死路径（铁律 #5）───────────────────────────
-#    SSOT: /Users/tianli/Dev/tools/dev/lib/tools/macapp/xcode_env.{py,sh}
+#    SSOT: $HOME/Dev/tools/dev/lib/tools/macapp/xcode_env.{py,sh}
 #    判据：toolchain 活着 + 有该平台 SDK + 宿主 SDK 不老于当前 macOS + min-sdk。
 #    挑不出就在这里硬失败 —— 回落到写死路径只会把失败推迟到真构建那一刻。
-_XCODE_ENV_SH=/Users/tianli/Dev/tools/dev/lib/tools/macapp/xcode_env.sh
+_XCODE_ENV_SH=$HOME/Dev/tools/dev/lib/tools/macapp/xcode_env.sh
 [ -f "$_XCODE_ENV_SH" ] || { echo "❌ 缺总部 Xcode SSOT $_XCODE_ENV_SH（禁写死 Xcode 路径顶上）" >&2; exit 1; }
 # shellcheck source=/dev/null
 source "$_XCODE_ENV_SH"

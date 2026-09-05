@@ -11,7 +11,7 @@
 # **改上游让两边都受益**,别在这里分叉(分叉之后这道门就永远红,红久了人就不看了)。
 set -euo pipefail
 cd "$(dirname "$0")"
-UP=/Users/tianli/Apps/mac/ask-claude/Sources/MarkdownView.swift
+UP=$HOME/Apps/mac/ask-claude/Sources/MarkdownView.swift
 MINE=Sources/MarkdownView.swift
 [ -f "$UP" ]   || { echo "❌ 上游不在: $UP —— 拒绝在缺源的情况下报绿" >&2; exit 1; }
 [ -f "$MINE" ] || { echo "❌ 本地不在: $MINE" >&2; exit 1; }
