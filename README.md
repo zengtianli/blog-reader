@@ -1,3 +1,5 @@
+**中文** | [English](README_EN.md)
+
 <p align="center"><img src="Resources/icon-1024.png" width="96" alt="我的文章"></p>
 
 # 我的文章 · blog-reader
